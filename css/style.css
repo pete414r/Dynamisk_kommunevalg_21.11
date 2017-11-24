@@ -164,8 +164,39 @@ body {
 .callto h2 {
 	font-size: 4vw;
 	color: #FF1653;
-}
+		background-repeat: no-repeat;
+		z-index: 13;
+		background-size: 100%;
+		-webkit-animation-name: affix_kf;
+		animation-name: affix_kf;
+		-webkit-animation-duration: 0.8s;
+		animation-duration: 0.8s;
+		-webkit-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both;
+		-webkit-animation-delay: 1.1s;
+		animation-delay: 1.1s;
+		-webkit-animation-direction: reverse;
+		animation-direction: reverse;
+		-webkit-transition-timing-function: ease-in-out;
+		transition-timing-function: ease-in-out;
+	}
 
+	@keyframes affix_kf {
+		0% {
+			-webkit-transform: scale(1);
+			transform: scale(1);
+		}
+		50% {
+			-webkit-transform: scale(1.01);
+			transform: scale(1.01);
+		}
+		100% {
+			-webkit-transform: scale(1);
+			transform: scale(1);
+		}
+	}
 .social-nav a {
 	z-index: 10;
 	color: lightgoldenrodyellow;
@@ -193,29 +224,6 @@ body {
 	font-weight: 100;
 	font-family: 'source sans pro';
 }
-
-.motiver {
-		z-index: 250;
-		position: absolute;
-		top: 13vw;
-		left: 4.3vw;
-		width: 24.89vw;
-		height: 22.62vw;
-		background-image: url(../images_turen/logo_floket/cs_star18-25.svg);
-		background-size: 448.02vw 22.62vw;
-		background-repeat: no-repeat;
-		-webkit-animation: motiv_kf 4s 3 steps(18);
-		animation: motiv_kf 4s 3 steps(18);
-	}
-
-	@keyframes motiv_kf {
-		0% {
-			background-position: 0vw;
-		}
-		100% {
-			background-position: -448.02vw;
-		}
-	}
 
 
 /**************TOP**NAVBAR**SLUT**********************/
@@ -1384,6 +1392,29 @@ span h2 {
 		color: #90ceff;
 	}
 
+	.motiver {
+		z-index: 250;
+		position: absolute;
+		top: 13vw;
+		left: 4.3vw;
+		width: 24.89vw;
+		height: 22.62vw;
+		background-image: url(../images_turen/logo_floket/cs_star18-25.svg);
+		background-size: 448.02vw 22.62vw;
+		background-repeat: no-repeat;
+		-webkit-animation: motiv_kf 4s 3 steps(18);
+		animation: motiv_kf 4s 3 steps(18);
+	}
+
+	@keyframes motiv_kf {
+		0% {
+			background-position: 0vw;
+		}
+		100% {
+			background-position: -448.02vw;
+		}
+	}
+
 	/**************BAGGRUND**LOGO**SLUT******************/
 	/**************LAPTOP**GENERALT**********************/
 	div {
@@ -1428,41 +1459,9 @@ span h2 {
 		font-size: 30px;
 	}
 
-	.callto h2 {
+	callto h2{
 		color: #F51021;
 		font-size: 3vw;
-		background-repeat: no-repeat;
-		z-index: 13;
-		background-size: 100%;
-		-webkit-animation-name: affix_kf;
-		animation-name: affix_kf;
-		-webkit-animation-duration: 0.8s;
-		animation-duration: 0.8s;
-		-webkit-animation-iteration-count: infinite;
-		animation-iteration-count: infinite;
-		-webkit-animation-fill-mode: both;
-		animation-fill-mode: both;
-		-webkit-animation-delay: 1.1s;
-		animation-delay: 1.1s;
-		-webkit-animation-direction: reverse;
-		animation-direction: reverse;
-		-webkit-transition-timing-function: ease-in-out;
-		transition-timing-function: ease-in-out;
-	}
-
-	@keyframes affix_kf {
-		0% {
-			-webkit-transform: scale(1);
-			transform: scale(1);
-		}
-		50% {
-			-webkit-transform: scale(1.01);
-			transform: scale(1.01);
-		}
-		100% {
-			-webkit-transform: scale(1);
-			transform: scale(1);
-		}
 	}
 
 	#myNavbar ul li a {
