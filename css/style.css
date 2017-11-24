@@ -194,6 +194,29 @@ body {
 	font-family: 'source sans pro';
 }
 
+.motiver {
+		z-index: 250;
+		position: absolute;
+		top: 13vw;
+		left: 4.3vw;
+		width: 24.89vw;
+		height: 22.62vw;
+		background-image: url(../images_turen/logo_floket/cs_star18-25.svg);
+		background-size: 448.02vw 22.62vw;
+		background-repeat: no-repeat;
+		-webkit-animation: motiv_kf 4s 3 steps(18);
+		animation: motiv_kf 4s 3 steps(18);
+	}
+
+	@keyframes motiv_kf {
+		0% {
+			background-position: 0vw;
+		}
+		100% {
+			background-position: -448.02vw;
+		}
+	}
+
 
 /**************TOP**NAVBAR**SLUT**********************/
 
@@ -1354,34 +1377,11 @@ span h2 {
 	}
 
 	.logologin2 h1 {
-		margin: 16vw 0 0 5vw;
+		margin: 16.5vw 0 0 5vw;
 		padding: 0;
 		font-size: 5vw;
 		height: 7vw;
 		color: #90ceff;
-	}
-
-	.motiver {
-		z-index: 250;
-		position: absolute;
-		top: 13vw;
-		left: 4.3vw;
-		width: 24.89vw;
-		height: 22.62vw;
-		background-image: url(../images_turen/logo_floket/cs_star18-25.svg);
-		background-size: 448.02vw 22.62vw;
-		background-repeat: no-repeat;
-		-webkit-animation: motiv_kf 4s 3 steps(18);
-		animation: motiv_kf 4s 3 steps(18);
-	}
-
-	@keyframes motiv_kf {
-		0% {
-			background-position: 0vw;
-		}
-		100% {
-			background-position: -448.02vw;
-		}
 	}
 
 	/**************BAGGRUND**LOGO**SLUT******************/
