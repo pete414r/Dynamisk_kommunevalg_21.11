@@ -1,0 +1,242 @@
+[
+
+	{
+		"id": "2",
+		"fornavn": "Lars",
+		"efternavn": "Jørgensen",
+		"fornavn_modal": "Lars Jørgensen",
+		"alder": 25,
+		"fornavn_reg": "REGION HOVEDSTADEN",
+		"fornavn_reg_modal": "Region Hovedstaden",
+
+
+
+		"øjenfarve": "https://www.kk.dk",
+
+
+		"kortbeskrivelse": "https://www.regionh.dk",
+		"yndlingsfarve_reg": "#003460",
+
+		"hårfarve": "https://www.dragoer.dk",
+
+
+		"billede_reg": "host",
+
+
+		"idol": "Region Hovedstaden er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amt og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning ligger i Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand er Sophie Hæstorp Andersen.",
+
+		"hobby": "Københavns kommune er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger.",
+
+		"vægttekst_reg": "Kommuner:",
+		"vægt_reg": 30,
+		"højdetekst_reg": "Hospitaler:",
+		"højde_reg": 9,
+
+		"kæledyr": "Dragør kommune er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974. Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org).",
+
+		"livret": "Helsingør Kommune",
+
+		"yndlingsfarve": "#245d2f",
+
+		"bopæl": "Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, hvilket præger hans butik. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen. Han hader mere end noget at gå gennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen. Der ligger glasskår over det hele, og gaderne lugter.",
+
+		"billede": "reg-01",
+
+		"uddannelse": "Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel. Han har derfor tænkt sig at stemme på et parti som vil holde byen pæn og ren, så man kan lide at bruge den. Bopæl: Helsingør Kommune.",
+
+		"vægttekst": "Livvidde:",
+		"vægt": 94,
+		"højdetekst": "Højde:",
+		"højde": 173
+
+		  },
+	{
+
+		"id": "4",
+		"fornavn": "Michael",
+		"efternavn": "Nielsen",
+		"fornavn_modal": "Michael Nielsen",
+		"alder": 22,
+
+		"fornavn_reg": "REGION MIDTJYLLAND",
+		"fornavn_reg_modal": "Region Midtjylland",
+
+		"øjenfarve": "https://www.aarhus.dk",
+
+		"kortbeskrivelse": "https://www.rm.dk",
+		"yndlingsfarve_reg": "#850041",
+
+		"hårfarve": "https://www.samsoe.dk",
+
+		"billede_reg": "mijy",
+
+		"idol": "Region Midtjylland er en administrativ enhed med hovedansvaret sundhedsvæsenet, regional udvikling og drift af en række sociale institutioner i Midtjylland. Regionsforvaltning ligger i Viborg. Indbyggere 1.282.750 (2015) Regionsrådsformand er Bent Hansen.",
+
+		"hobby": "Aarhus kommune er Regionens største kommune med 323.477 indbyggere. Der er 31 medlemmer, her af er der to Magistratsmedlemmer, seks Rådmænd og en Borgmester.",
+
+		"vægttekst_reg": "Kommuner:",
+		"vægt_reg": 19,
+		"højdetekst_reg": "Hospitaler:",
+		"højde_reg": 2,
+
+		"kæledyr": "Samsø kommune er Regionens mindste kommune. Samsø Kommune udgør det lokale styre på Samsø og en række småøer. Kommunen blev dannet pr. 1. april 1962 ved sammenlægning af sognekommunerne Besser, Kolby, Nordby, Onsbjerg og Tranebjerg Areal: 114,71 km². Befolkningstal: 3.724 (kilde:www.da.wikipedia.org).",
+		"livret": "Silkeborg Kommune",
+
+		"yndlingsfarve": "#7196a7",
+
+		"bopæl": "Michael er single. I sin fritid kan Michael godt lide at sejle, og har været medlem af Silkeborg Sejlklub siden han var 16 år. Michael uddanner sig til civilingeniør, hvor han i 2018 får sit diplom. Han er meget engageret i sin skole, og håber med sit høje snit en dag at kunne arbejde for Mærsk. Han bor hjemme hos sin store familie, som han også tilbringer meget tid med. Han håber dog på snart at finde en studiebolig i København, men har endnu ikke haft heldet med sig. Bopæl: Silkeborg Kommune.",
+
+		"billede": "reg-02",
+
+		"uddannelse": "Michael stemte til sidste kommunalvalg, men kun fordi det er noget man ‘bare gør’ i hans familie. Han tvivler på, hvor meget hans stemme egentlig gør en forskel. Til kommunalvalget til november, har Michael stadig tænkt sig at stemme, men han ved dog ikke på hvem endnu, da han synes der er rigtig mange forskellige der stiller op, og han endnu ikke ved hvad de hver især står for.",
+
+
+
+		"vægttekst": "Livvidde:",
+		"vægt": 104,
+		"højdetekst": "Højde:",
+		"højde": 173
+    },
+	{
+
+		"id": "6",
+		"fornavn": "Camilla",
+		"efternavn": "Adelsgaard",
+		"fornavn_modal": "Camilla Adelsgaard",
+		"alder": 24,
+
+		"fornavn_reg": "REGION NORDJYLLAND",
+		"fornavn_reg_modal": "Region Nordjylland",
+
+		"øjenfarve": "https://www.aalborg.dk",
+
+		"kortbeskrivelse": "https://www.rn.dk",
+
+		"yndlingsfarve_reg": "#822434",
+
+		"hårfarve": "https://www.laesoe.dk",
+
+		"billede_reg": "nojy",
+
+		"idol": "Region Nordjylland omfatter det tidligere Nordjyllands Amt samt de dele af Viborg Amt der ligger nord for Limfjorden, herunder øen Mors. Desuden den nordligste del af det nedlagte Århus Amt hvor byen Mariager ligger. Regionsforvaltningen ligger i Aalborg. Indbyggere 582.632. (2015) Regionsrådsformand er Ulla Astman.",
+
+		"hobby": "Aalborg kommune er Regionens største kommune med 205.630 indbyggere. Kommunens Byråb har 31 medlemmer. En Borgmester, to viceborgmestre, seks rådmænd og medlemmer af de syv stående udvalg.",
+
+		"vægttekst_reg": "Kommuner:",
+		"vægt_reg": 11,
+		"højdetekst_reg": "Hospitaler:",
+		"højde_reg": 2,
+
+		"kæledyr": "Læsø kommune er Regionens mindste kommune. Kommunen omfatter øen Læsø, beliggende i Kattegat. Kommunen var før Kommunalreformen i 2007 en selvstændig kommune, og fortsætter uændret efter kommunesammenlægningen Areal: 118,4 km² Befolkningstal: 1.793 (kilde:www.da.wikipedia.org).",
+
+		"livret": "Aalborg Kommune",
+		"yndlingsfarve": "#311e08",
+
+		"bopæl": "Camilla er kæreste med Benny og bruger alt sin fritid på ham, planlægning af fremtiden og restaurering af boligen. Benny bor i Aalborg 20 km fra gården, så han mener det er hans pligt at hente hende i bil, med bus tager det en time. Camilla var heldig at komme godt igennem uddannelsen til landmand og fik tilbudt en mindre gård, hun ikke kunne sige nej til. Det er kun 10% som starter eget landbrug efter uddannelsen, så Camilla så sig meget heldig. Camilla har tænkt alternativt og vil gået ind på et nichemarked, for ormeproduktion. Produktionen skal omlægge til økologi, men det er dyrt at tage lån, skal hun hilse at sige. Bopæl: Aalborg Kommune.",
+
+		"billede": "reg-04",
+
+		"uddannelse": "Camilla var med til at stemme V regeringen til magten i 2015 og ønsker fortsat en regering som styrker landbruget investeringsmuligheder og fremmer afsætning til udlandet, så Camilla føler ingen grund til ikke at afgive stemme til kommunalvalget. Hun kender til at Aalborg har en V borgmester og Regionen har en S formand.",
+
+		"vægttekst": "Livvidde:",
+		"vægt": 74,
+		"højdetekst": "Højde:",
+		"højde": 174
+
+  },
+
+	{
+
+		"id": "8",
+		"fornavn": "Katrine",
+		"efternavn": "Milder",
+		"fornavn_modal": "Katrine Milder",
+		"alder": 18,
+
+		"fornavn_reg": "REGION SYDDANMARK",
+		"fornavn_reg_modal": "Region Syddanmark",
+
+		"øjenfarve": "https://www.odense.dk",
+
+		"kortbeskrivelse": "https://www.regionsyddanmark.dk",
+		"yndlingsfarve_reg": "#8aa80c",
+
+		"hårfarve": "https://www.fanoe.dk",
+
+		"billede_reg": "syda",
+
+		"idol": "Region Syddanmark omfatter de tidligere Fyns, Ribe og Sønderjyllands amter, samt de tidligere kommuner Børkop, Egtved, Fredericia, Give, Jelling, Kolding, Lunderskov, Vamdrup og Vejle, der lå i Vejle Amt. Regionsforvaltningen ligger i Vejle. Indbyggere 1.217.224 (2017) Regionsrådsformand er Stephanie Lose.",
+
+		"hobby": "Odense kommune er Regionens største med 195.908 indbyggere. Byrådet har 29 medlemmer, her af er en Borgmester, to viceborgmestre, fire rådmænd.",
+
+		"vægttekst_reg": "Kommuner:",
+		"vægt_reg": 17,
+		"højdetekst_reg": "Hospitaler:",
+		"højde_reg": 3,
+
+		"kæledyr": "Fanø kommune er en lille kommune der hører under Region Syddanmark. Lokalplan nr. 1 blev vedtaget i 1978. I forbindelse med Kommunalreformen forblev kommunen selvstændig, men der blev indgået øsamarbejdsaftale med Esbjerg Kommune. Areal: 59,86 km². Indbyggere 3.345 (kilde:www.da.wikipedia.org).",
+
+		"livret": "Kerteminde Kommune",
+
+		"yndlingsfarve": "#0000dd",
+
+		"bopæl": "Katrine er lige blevet 18 år og er i et forhold. Hun går i 3.C på Kerteminde Gymnasium. Når hun ikke laver lektier, se hun en god film eller gå en lang tur i skoven med hendes hund. Hun bruger også meget af sin fritid med sin kæreste og familie, hvor de laver god mad og snakker om, hvordan det er gået i skolen og på arbejde. I øjeblikket er Katrines mormor på plejehjem, da hun ikke længere kan klare tingene på egen hånd. Hele familien besøgte hende igår, og blev alle en smule chokerede over de forhold, hun skulle leve under. Bopæl: Kerteminde Kommune.",
+
+		"billede": "reg-03",
+
+		"uddannelse": "Katrine ved der afholdes Regionsråds- og Kommunalvalg, men havde ikke stemmeret sidste gang. Hun ved ikke om hun stemmer til dette års valg - både fordi hun ikke føler, at hendes stemme gør en forskel, og fordi hun ikke ved hvem hun skal stemme på. Hendes forældre håber dog at hun vil gøre brug af sin stemmeret, da selv en enkelt stemme gør en forskel, og man på den måde bidrager til demokratiet.",
+
+		"vægttekst": "Livvidde:",
+		"vægt": 64,
+		"højdetekst": "Højde:",
+		"højde": 163
+
+  },
+	{
+
+		"id": "10",
+		"fornavn": "Oskar",
+		"efternavn": "Svaendekilde",
+		"fornavn_modal": "Oskar Svaendekilde",
+		"alder": 19,
+
+		"fornavn_reg": "REGION SJÆLLAND",
+		"fornavn_reg_modal": "Region Sjælland",
+
+		"øjenfarve": "https://www.roskilde.dk",
+
+		"kortbeskrivelse": "https://www.regionsjaelland.dk",
+		"yndlingsfarve_reg": "#6db5cd",
+
+		"hårfarve": "https://www.solrod.dk",
+
+		"billede_reg": "sjae",
+
+		"idol": "Region Sjælland er etableret 2007 som en del af den danske kommunalreform 2007, som har erstattet de traditionelle amter med fem regioner. Regionsforvaltning Sorø. Indbyggere 820.480 (2015) Regionsrådsformand Jens Stenbæk.",
+
+		"hobby": "Roskilde kommune er Regionens største med 84.471 indbyggere. Byrådet har 31 medlemmer, her af er en Borgmester, to viceborgmestre herudover er der ti udvalg.",
+
+		"vægttekst_reg": "Kommuner:",
+		"vægt_reg": 22,
+		"højdetekst_reg": "Hospitaler:",
+		"højde_reg": 2,
+
+		"kæledyr": "Solrød kommune er Regionens mindste kommune. Solrød Kommune ligger cirka 30 kilometer syd for København med seks kilometers kyststrækning ud til Køge Bugt. Areal: 40 km² Indbyggere 22.147 (kilde:www.da.wikipedia.org).",
+
+		"livret": "Greve Kommune",
+
+		"yndlingsfarve": "#404040",
+
+		"bopæl": "Oskar er 19 år og Single. Han bor i en lille ungdomsbolig og er tømrer lærling på 2. år hos Svendsen & søn der ligger tæt på hans bopæl, hvilket sparer ham for en del transportudgifter, han synes dog stadig lønnen er for lav, sammenlignet med hvad man får i et normalt job. Han vil gerne læse videre til bygningskonstruktør når han er færdig som tømrer. Oskars bolig er præget af at der er meget arbejdstøj og at det er dyrt at vaske, som gør at han tilbringer rigtig meget tid hjemme hos resten af sin familie, lillebror og søster. Han spiller spil på playstation og har en stor venneskare han kan gå i byen med. Bopæl: Greve Kommune.",
+
+		"billede": "reg-05",
+
+		"uddannelse": "Oskar kender ikke meget til kommunale anliggender og slet ikke valg af medlemmer til kommunens kommunalbestyrelse og Regionsråd. Han kender dog til byggetilladelser udstedt af kommunen. Kommunalvalget er Oskars første mulighed for at stemme og det vil han gerne prøve.",
+
+		"vægttekst": "Livvidde:",
+		"vægt": 114,
+		"højdetekst": "Højde:",
+		"højde": 193
+
+    }
+]

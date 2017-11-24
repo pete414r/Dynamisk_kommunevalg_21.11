@@ -1,0 +1,1599 @@
+/**************TABLET**POTRAET**************************/
+
+/**************TABLET**POTRAET**************************/
+
+@import 'https://fonts.googleapis.com/css?family=Concert+One';
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro';
+* {
+	max-width: 1366px;
+	margin: 0 auto;
+}
+
+/**************GOOGLE**FONT**SLUT************************/
+
+/**************TABLET**POTRAET**GENERALT**********************/
+
+h1 {
+	-webkit-transition: ease-in-out 0.2s;
+	transition: ease-in-out 0.2s;
+	margin-left: 30px;
+	font-family: 'concert one';
+	padding: 20px;
+	font-size: 40px;
+	color: whitesmoke;
+}
+
+h2 {
+	-webkit-transition: ease-in-out 0.2s;
+	transition: ease-in-out 0.2s;
+	line-height: 0;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 20px;
+	color: #f51021;
+}
+
+h3 {
+	-webkit-transition: ease-in-out 0.2s;
+	transition: ease-in-out 0.2s;
+	font-family: 'concert one';
+	font-size: 5rem;
+	padding-left: 110px;
+	padding-bottom: 10px;
+	color: #101010;
+	font-weight: 700;
+}
+
+h4 {
+	-webkit-transition: ease-in-out 0.2s;
+	transition: ease-in-out 0.2s;
+	font-family: 'concert one';
+	font-size: 30px;
+	padding-left: 110px;
+	padding-bottom: 10px;
+	color: #101010;
+	/*	color: #553E6E;*/
+	font-weight: 700;
+}
+
+h5 {
+	line-height: 0.2;
+	-webkit-transition: ease-in-out 0.2s;
+	transition: ease-in-out 0.2s;
+	font-family: 'concert one';
+	font-size: 12px;
+	padding-left: 50px;
+	color: #fff;
+}
+
+h6 {
+	-webkit-transition: ease-in-out 0.2s;
+	transition: ease-in-out 0.2s;
+	font-size: 20px;
+	color: whitesmoke;
+	padding-left: 65px;
+	padding-bottom: 10px;
+	font-weight: 600;
+	font-family: 'concert one';
+}
+
+
+a {
+	color: grey;
+	font-family: 'source sans pro';
+}
+
+/**************TABLET**POTRAET**GENERALT**SLUT********************/
+
+/**************BAGGRUND**LOGO********************/
+
+body {
+	background-color: #91759b;
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+	background-image: url(../images_turen/tabletpotrat-768%20x%201024.jpg);
+	background-repeat: no-repeat;
+}
+
+.logotekst h5 {
+	display: none;
+}
+
+.logologin img {
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+.logologin1 img {
+	display: none;
+}
+
+.logologin2 h1 {
+	font-size: 10vw;
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 2vw;
+	width: 15vw;
+}
+
+.logologin2 img {
+	margin: 2vw 0 0 0;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+.logologin3_folket {
+	display: none;
+}
+
+.logologin3 img {
+	display: none;
+}
+
+.logologin3_two img {
+	display: none;
+}
+
+.logologin4 img {
+	height: 1.5vw;
+	margin: 0;
+}
+
+/**************BAGGRUND**LOGO**SLUT******************/
+
+/**************TOP**NAVBAR************************/
+
+.affixbar {
+	text-align: center;
+	background-color: rgba(72, 38, 37, 0);
+	color: #fff;
+	height: 65px;
+}
+
+.affix {
+	z-index: 25;
+	top: 0;
+	width: 100%;
+}
+
+.callto {
+	text-align: center;
+}
+
+.callto h2 {
+	font-size: 4vw;
+	color: #FF1653;
+}
+
+.social-nav a {
+	z-index: 10;
+	color: lightgoldenrodyellow;
+	font-family: 'source sans pro';
+}
+
+.nav {
+	z-index: 10;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.navbar {
+	background-color: rgba(72, 38, 37, 0.1);
+	border-radius: 0.5%;
+}
+
+#myNavbar ul li a {
+	color: #EEE785;
+	font-weight: bolder;
+}
+
+#myNavbar ul li a:hover {
+	color: #B6C350;
+	font-weight: 100;
+	font-family: 'source sans pro';
+}
+
+
+/**************TOP**NAVBAR**SLUT**********************/
+
+/**************VALG**VIDEO********************/
+
+#section1 {
+	z-index: 100;
+	background-color: rgba(153, 123, 187, 0.0);
+	margin: 20px 20px 0 20px;
+	padding: 0 20px 0 20px;
+}
+
+.hs-responsive-embed-youtube {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding-bottom: 60%;
+	/* 16:9 Aspect Ratio */
+	background-color: rgba(0, 0, 0, 0.7);
+	border-top: 5px solid rgba(0, 0, 0, 0);
+	border-right: 5px solid rgba(0, 0, 0, 0);
+	border-bottom: 5px solid rgba(0, 0, 0, 0);
+	border-left: 5px solid rgba(0, 0, 0, 0);
+	border-radius: 5px;
+}
+
+.hs-responsive-embed-youtube iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.center {
+	width: 87vw;
+	margin: 0 auto;
+}
+
+
+/**************VALG**VIDEO**SLUT******************/
+
+/***************PROCESBAR**INFOGRAFIK******************/
+
+#section2 {
+	margin: 0 20px 0 20px;
+	padding: 0 20px 0 20px;
+}
+
+#section2 h5 {
+	line-height: 1.5;
+	font-family: 'source sans pro';
+	font-size: 13px;
+	padding: 15px 5px 5px;
+	color: #101010;
+	font-weight: 900;
+	background-color: whitesmoke;
+	border-radius: 5px;
+}
+
+.progress {
+	max-width: 1300px;
+}
+
+#valgturen {
+	max-width: 1300px;
+	height: 100%;
+	background-size: 100%;
+	border-radius: 5px;
+}
+
+.valgturentext {
+	max-width: 1300px;
+	width: 100%;
+	height: 100%;
+	background: whitesmoke;
+	position: relative;
+	border-radius: 5px;
+}
+
+.valgturentext:before {
+	content: "";
+	position: absolute;
+	top: -22px;
+	left: 36px;
+	width: 0;
+	height: 0;
+	border-top: 23px solid transparent;
+	border-right: 36px solid whitesmoke;
+	border-bottom: 3px solid transparent;
+}
+
+/***************PROCESBAR**INFOGRAFIK**SLUT****************/
+
+#section4 {
+	border-radius: 10px;
+	margin: 0 10px 0 10px;
+}
+
+#section4 h5 {
+	line-height: 1.5;
+	font-family: 'concert one';
+	font-size: 13px;
+	padding: 0 5px 15px 0;
+	color: #000;
+}
+
+#section4 h6 {
+	margin-left: 13px;
+}
+
+.parti_max {
+	max-width: 1300px;
+}
+
+.pic {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	text-align: center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.pic:hover .text1 {
+	padding: 20px 4px 0 0;
+	opacity: 0.8;
+	text-align: center;
+	font-size: 11px;
+	font-weight: 700;
+	border-radius: 50%;
+}
+
+.text1 {
+	text-align: center;
+	-webkit-transition: ease-in-out 0.1s;
+	transition: ease-in-out 0.1s;
+	padding-top: 20px;
+	width: 80px;
+	height: 80px;
+	background: whitesmoke;
+	margin: 0;
+	opacity: 0;
+}
+
+.pic1 {
+	background: url(../images_turen/partier/cs_partiring_alternativet.png);
+	text-align: center;
+}
+
+.pic2 {
+	background: url(../images_turen/partier/cs_partiring_dansk_folkeparti.png);
+	text-align: center;
+}
+
+.pic3 {
+	background: url(../images_turen/partier/cs_partiring_enhedslisten.png);
+	text-align: center;
+}
+
+.pic4 {
+	background: url(../images_turen/partier/cs_partiring_guldborgssundlisten.png);
+	text-align: center;
+}
+
+.pic5 {
+	background: url(../images_turen/partier/cs_partiring_konservative_folkeparti.png);
+	text-align: center;
+}
+
+.pic6 {
+	background: url(../images_turen/partier/cs_partiring_kristendemokraterne.png);
+	text-align: center;
+}
+
+.pic7 {
+	background: url(../images_turen/partier/cs_partiring_lbeiral_aliance.png);
+	text-align: center;
+}
+
+.pic8 {
+	background: url(../images_turen/partier/cs_partiring_socialistisk_folkeparti.png);
+	text-align: center;
+}
+
+.pic9 {
+	background: url(../images_turen/partier/cs_partiring_radikale_venstre.png);
+	text-align: center;
+}
+
+.pic10 {
+	background: url(../images_turen/partier/cs_partiring_slesvigskparti.png);
+	text-align: center;
+}
+
+.pic11 {
+	background: url(../images_turen/partier/cs_partiring_socialdemokratiet.png);
+	text-align: center;
+}
+
+.pic12 {
+	background: url(../images_turen/partier/cs_partiring_venstre.png);
+	text-align: center;
+}
+
+/************Dynamisk**parti************************/
+
+#section3 {
+	display: none;
+}
+
+footer {
+	background-image: url(../images_turen/cs_flovding_bg_light_30_3333.png);
+	background-color: #000;
+}
+
+#teksten_union {
+	display: inline;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+}
+
+span h2 {
+	text-align: center;
+	font-size: 14px;
+}
+
+.colorbox {
+	width: 200px;
+	height: 20px;
+	display: block;
+	border: 3px solid #fff;
+	border-radius: 50%;
+}
+
+.temp_navn {
+	display: block;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.vaegt_navn {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	margin-right: 10px;
+}
+
+.hojde_navn {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	margin-right: 10px;
+}
+
+.color_navn span {
+	text-decoration: none;
+	color: white;
+	text-align: left;
+	margin: 0 1px 0 0;
+}
+
+.color_navn img {
+	margin-top: 25px;
+}
+
+.json_form button {
+	width: 100%;
+	height: 84%;
+	padding: 0;
+	margin: 8% 0.3% 0 0;
+	border: 0;
+}
+
+.temp_navn span {
+	font-size: 11px;
+}
+
+.temp_reg img {
+	width: 80px;
+	margin: 0;
+	padding-left: 20px;
+}
+
+.temp_pers img {
+	height: 40px;
+	margin-top: 0;
+}
+
+.modal-header {
+	background-image: url(../images_turen/logo_floket/cs_baggrund_hoest.png);
+	background-size: cover;
+}
+
+.modal-body {
+	opacity: 50;
+	background-image: url(../images_turen/logo_floket/cs_body_button_hoest.png);
+	background-size: cover;
+	background-color: lightyellow;
+}
+
+.modal-footer {
+	background-image: url(../images_turen/logo_floket/cs_baggrund_hoest.png);
+	background-size: cover;
+}
+
+.modal.fade .modal-dialog {
+	-webkit-transform: scale(0.1);
+	transform: scale(0.1);
+	top: 300px;
+	opacity: 0;
+	-webkit-transition: all 0.15s;
+	transition: all 0.15s;
+}
+
+.modal.fade.in .modal-dialog {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transform: translate3d(0, -300px, 0);
+	transform: translate3d(0, -300px, 0);
+	opacity: 1;
+}
+
+.in {
+	display: none;
+}
+
+/************Dynamisk**parti**slut**********************/
+
+/*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
+
+.keaside_top {
+	margin-top: 80px;
+	font-size: 12px;
+	display: none;
+}
+
+.keaside_top a {
+	font-family: "Times New Roman";
+	color: #fff;
+}
+
+.keaside_bund {
+	margin-top: 80px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.keaside_bund a {
+	font-family: "Times New Roman";
+	color: #fff;
+}
+
+.keainfo h6 {
+	margin: 30px 0 0 0;
+	font-size: 15px;
+	text-align: center;
+	padding: 0 0 0 0;
+	font-family: 'source sans pro';
+}
+
+.likontaktinfo {
+	margin-top: 0;
+	text-align: center;
+}
+
+.likontaktinfo li {
+	color: black;
+}
+
+.likontaktinfo a {
+	font-size: 13px;
+	font-family: 'source sans pro';
+}
+
+.likontaktinfo h4 {
+	line-height: 0.7;
+	padding: 0 0 0 10px;
+	font-size: 13px;
+	font-family: 'source sans pro';
+	font-weight: 500;
+	color: grey;
+	text-align: center;
+}
+
+.res-responsive {
+	padding-top: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+.lorry img {
+	height: 50px;
+	width: 100px;
+	padding-bottom: 0;
+	margin-top: 20px;
+}
+
+.some_2017 {
+	display: none;
+}
+
+.some_ikon {
+	display: none;
+}
+
+.some {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.some_copyright {
+	text-align: center;
+	margin-left: 0;
+}
+
+.some_lorry {
+	text-align: center;
+}
+
+.keainfo_map {
+	display: none;
+}
+
+/*******************FOOTER**KONTAKT**GOOGLE**MAPS**SLUT**********/
+
+/**************TABLET**POTRAET**SLUT************************/
+
+/**************TABLET**LANDSKAB************************/
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+
+	/**************BAGGRUND**LOGO********************/
+	body {
+		background-color: rgba(204, 112, 178, 0.96);
+		background-image: url(../images_turen/tabletlandskab-1024-x800.jpg);
+	}
+
+	.logologin img {
+		width: 35%;
+	}
+
+	.logotekst h5 {
+		display: block;
+		font-size: 2vw;
+		font-weight: 600;
+		color: whitesmoke;
+		padding-bottom: 0.7vw;
+		font-family: 'source sans pro';
+	}
+
+	.logologin2 {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+
+	.logologin2 h1 {
+		margin: 0 0 0 24vw;
+		padding: 0;
+		font-size: 5vw;
+		font-weight: 500;
+		height: 6vw;
+	}
+
+	.logologin2 img {
+		margin-top: 15vw;
+		width: 30vw;
+		height: 11vw;
+		background-repeat: no-repeat;
+	}
+
+	.logologin3_folket {
+		background-size: 100%;
+		background-image: url(../images_turen/logo_floket/cs_folket.svg);
+		display: block;
+		padding: 0;
+		margin: 3.5vw 0 1vw 2vw;
+		height: 7vw;
+		background-repeat: no-repeat;
+	}
+
+	.logologin3_two img {
+		display: none;
+	}
+
+	.logologin3 img {
+		display: none;
+	}
+
+	.logologin4 img {
+		margin: 2vw 0 2vw 0;
+		height: 1.5vw;
+	}
+
+	/**************BAGGRUND**LOGO**SLUT******************/
+	/**************TABLET**LANDSKAB**GENERALT**********************/
+	h1 {
+		color: #7b365d
+	}
+
+	h2 {
+		font-size: 15px;
+		color: #C9181D;
+	}
+
+	h3 {
+		margin: 40px 20px 5px 20px;
+		font-size: 40px;
+		color: #0479be;
+		font-weight: 700;
+		color: #101010;
+	}
+
+	h4 {
+		font-size: 35px;
+		color: #7b365d;
+	}
+
+	h5 {
+		font-size: 15px;
+		padding-top: 2vw;
+		color: #7b365d;
+	}
+
+	h6 {
+		font-size: 20px;
+		font-weight: 700;
+		color: whitesmoke;
+	}
+	/**************TABLET**LANDSKAB**GENERALT**SLUT********************/
+	/**************TOP**NAVBAR************************/
+	.nav {
+		font-size: 25px;
+	}
+
+	.affixbar {
+		background-color: rgba(153, 123, 187, 0);
+		height: 65px;
+	}
+
+	.callto h2 {
+		font-size: 3vw;
+	}
+
+	/**************TOP**NAVBAR**SLUT**********************/
+	/**************VALG**VIDEO********************/
+	.center {
+		max-width: 500px;
+	}
+
+	/**************VALG**VIDEO**SLUT******************/
+	/***************PROCESBAR**INFOGRAFIK******************/
+	#section2 h5 {
+		line-height: 1.5;
+		font-size: 18px;
+	}
+
+	/***************PROCESBAR**INFOGRAFIK**SLUT****************/
+	/*******************PERSONA**VALGINFO**DYNAMICK**************/
+	#section3 {
+		display: block;
+		z-index: 100;
+		margin: 10px 20px 20px 20px;
+		padding: 0 20px 0 20px;
+	}
+
+	#section3 .modal-body span {
+		color: black;
+	}
+
+	.json_form {
+		background-image: url(../images_turen/logo_floket/cs_body_button_hoest.png);
+		position: relative;
+		height: 185px;
+		width: 185px;
+		z-index: 1;
+		color: #fff;
+		text-decoration: none;
+		background-color: #202020;
+		margin: 3px 3px;
+		border-radius: 55% 27% 55% 27%;
+	}
+
+	.temp_forma {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+
+	/*******************PERSONA**VALGINFO**SLUT**************/
+	/*******************PARTIINFO**LOGOLINKS**************/
+	/*******************PARTIINFO**LOGOLINKS**SLUT************/
+	/*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
+	.keainfo h6 {
+		margin-top: 30px;
+		font-size: 18px;
+		padding-left: 0;
+		padding-bottom: 0;
+		color: whitesmoke;
+		font-family: 'source sans pro';
+	}
+
+	.likontaktinfo {
+		text-align: center;
+	}
+
+	.likontaktinfo h4 {
+		line-height: 0.7;
+		padding: 7px 0 0 10px;
+		margin-top: 0;
+	}
+
+	.keaside_top {
+		margin-top: 30px;
+		display: block;
+	}
+
+	.keaside_bund {
+		display: none;
+	}
+
+	.some {
+		display: none;
+	}
+
+	.some_copyright {
+		display: none;
+	}
+
+	.some_lorry {
+		display: none;
+	}
+
+	.some_2017 {
+		margin-top: 36px;
+		display: block;
+	}
+
+	.some_ikon {
+		margin: 30px 0 0 0;
+		padding: 0;
+		display: block;
+	}
+
+	.some_ikon img {
+		margin: 0 0 10px 0;
+		padding: 0;
+		width: 26px;
+		border-radius: 50%;
+	}
+
+	#map {
+		height: 250px;
+		display: block;
+		margin-right: 50px;
+		margin-top: 30px;
+	}
+
+	.keainfo_map {
+		display: block;
+	}
+
+	.keainfo_map h6 {
+		margin-top: 30px;
+		font-size: 18px;
+		padding-left: 0;
+		padding-bottom: 0;
+		color: whitesmoke;
+		font-family: 'source sans pro';
+	}
+
+	#kort img {
+		width: 15%;
+	}
+	/*******************FOOTER**KONTAKT**GOOGLE**MAPS**SLUT**********/
+}
+
+/**************TABLET**LANDSKAB**SLUT************************/
+
+/**************LAPTOP**LANDSKAB**********************/
+
+@media screen and (min-width: 1200px) and (orientation: landscape) {
+
+	/**************BAGGRUND**LOGO********************/
+	body {
+		background-color: #0079ba;
+		background-image: url(../images_turen/laptop16x9-5120-x-2950_medium.jpg);
+	}
+	.logologin {
+		display: none;
+	}
+	.logologin1 img {
+		float: left;
+		display: block;
+		height: 30.5vw;
+		width: 30.5vw;
+		background-repeat: no-repeat;
+	}
+	.logotekst h5 {
+		display: block;
+		font-size: 2vw;
+		font-weight: 400;
+		padding-top: 2.2vw;
+		color: #90ceff;
+	}
+	.logologin2 img {
+		margin-left: 1vw;
+		margin-top: 14vw;
+		width: 30vw;
+		height: 11vw;
+		background-repeat: no-repeat;
+	}
+
+	.logologin3 img {
+		display: block;
+		padding: 0;
+		margin: 0.5vw 0 0 0;
+		width: 100%;
+		height: 100%;
+	}
+	.logologin3_two img {
+		display: block;
+		padding: 0;
+		margin: 0.5vw 0 0 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.logologin3_two:hover {
+		-webkit-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+	.logologin3_two {
+		-webkit-transform: rotateY(0deg);
+		transform: rotateY(0deg);
+		-webkit-transition: -webkit-transform 0.3s;
+		transition: -webkit-transform 0.3s;
+		transition: transform 0.3s;
+		transition: transform 0.3s, -webkit-transform 0.3s;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		-webkit-transition-timing-function: ease-in-out;
+		transition-timing-function: ease-in-out;
+	}
+
+	.logologin31 {
+		background-repeat: no-repeat;
+		z-index: 13;
+		position: absolute;
+		top: 5vw;
+		left: 5vw;
+		background-size: 100%;
+		-webkit-animation-name: moon11_kf;
+		animation-name: moon11_kf;
+		-webkit-animation-duration: 7s;
+		animation-duration: 7s;
+		-webkit-animation-iteration-count: 1;
+		animation-iteration-count: 1;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both;
+		-webkit-animation-delay: 1.1s;
+		animation-delay: 1.1s;
+		-webkit-transform-origin: right;
+		transform-origin: right;
+		-webkit-animation-direction: reverse;
+		animation-direction: reverse;
+		-webkit-transition-timing-function: ease-in-out;
+		transition-timing-function: ease-in-out;
+	}
+
+	@keyframes moon11_kf {
+		0% {
+			left: 5vw;
+		}
+		25% {
+			left: 25vw;
+		}
+		75% {
+			left: 25vw;
+		}
+		100% {
+			left: 5vw;
+		}
+		0% {
+			-webkit-transform: rotateY(0deg);
+			transform: rotateY(0deg);
+		}
+		25% {
+			-webkit-transform: rotateY(360deg);
+			transform: rotateY(360deg);
+		}
+		75% {
+			-webkit-transform: rotateY(540deg);
+			transform: rotateY(540deg);
+		}
+		100% {
+			-webkit-transform: rotateY(720deg);
+			transform: rotateY(720deg);
+		}
+	}
+
+	.logologin32 {
+		background-repeat: no-repeat;
+		z-index: 13;
+		position: absolute;
+		top: 5vw;
+		left: 21vw;
+		background-size: 100%;
+		-webkit-animation-name: moon12_kf;
+		animation-name: moon12_kf;
+		-webkit-animation-duration: 7s;
+		animation-duration: 7s;
+		-webkit-animation-iteration-count: 1;
+		animation-iteration-count: 1;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both;
+		-webkit-animation-delay: 1.1s;
+		animation-delay: 1.1s;
+		-webkit-transform-origin: right;
+		transform-origin: right;
+		-webkit-animation-direction: alternate;
+		animation-direction: alternate;
+		-webkit-transition-timing-function: ease-in-out;
+		transition-timing-function: ease-in-out;
+	}
+
+	@keyframes moon12_kf {
+		0% {
+			left: 21vw;
+		}
+		25% {
+			left: 27vw;
+		}
+		75% {
+			left: 27vw;
+		}
+		100% {
+			left: 21vw;
+		}
+		0% {
+			-webkit-transform: rotateY(0deg);
+			transform: rotateY(0deg);
+		}
+		25% {
+			-webkit-transform: rotateY(360deg);
+			transform: rotateY(360deg);
+		}
+		75% {
+			-webkit-transform: rotateY(540deg);
+			transform: rotateY(540deg);
+		}
+		100% {
+			-webkit-transform: rotateY(720deg);
+			transform: rotateY(720deg);
+		}
+	}
+
+	.logologin33 {
+		background-repeat: no-repeat;
+		z-index: 13;
+		position: absolute;
+		top: 5vw;
+		left: 38vw;
+		background-size: 100%;
+		-webkit-animation-name: moon13_kf;
+		animation-name: moon13_kf;
+		-webkit-animation-duration: 7s;
+		animation-duration: 7s;
+		-webkit-animation-iteration-count: 1;
+		animation-iteration-count: 1;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both;
+		-webkit-animation-delay: 1.1s;
+		animation-delay: 1.1s;
+		-webkit-transform-origin: right;
+		transform-origin: right;
+		-webkit-animation-direction: reverse;
+		animation-direction: reverse;
+		-webkit-transition-timing-function: ease-in-out;
+		transition-timing-function: ease-in-out;
+	}
+
+	@keyframes moon13_kf {
+		/*
+            from {
+                transform: scale(0, 0);
+            }
+            to{
+                transform: scale(2, 2);
+            }
+*/
+		0% {
+			left: 38vw;
+		}
+		25% {
+			left: 15vw;
+		}
+		75% {
+			left: 15vw;
+		}
+		100% {
+			left: 38vw;
+		}
+		0% {
+			-webkit-transform: rotateY(0deg);
+			transform: rotateY(0deg);
+		}
+		25% {
+			-webkit-transform: rotateY(360deg);
+			transform: rotateY(360deg);
+		}
+		75% {
+			-webkit-transform: rotateY(540deg);
+			transform: rotateY(540deg);
+		}
+		100% {
+			-webkit-transform: rotateY(720deg);
+			transform: rotateY(720deg);
+		}
+	}
+
+
+
+	.logologin3_two_123 {
+		background-repeat: no-repeat;
+		z-index: 13;
+		position: absolute;
+		top: 5vw;
+		left: 10vw;
+		background-size: 100%;
+		-webkit-animation-name: moon1_kf;
+		animation-name: moon1_kf;
+		-webkit-animation-duration: 7s;
+		animation-duration: 7s;
+		-webkit-animation-iteration-count: 1;
+		animation-iteration-count: 1;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both;
+		-webkit-animation-delay: 1.1s;
+		animation-delay: 1.1s;
+		-webkit-transform-origin: right;
+		transform-origin: right;
+		-webkit-animation-direction: alternate;
+		animation-direction: alternate;
+		-webkit-transition-timing-function: ease-in-out;
+		transition-timing-function: ease-in-out;
+	}
+
+	@keyframes moon1_kf {
+		0% {
+			left: 10vw;
+		}
+		25% {
+			left: 20vw;
+		}
+		75% {
+			left: 20vw;
+		}
+		100% {
+			left: 10vw;
+		}
+		0% {
+			-webkit-transform: rotateY(0deg);
+			transform: rotateY(0deg);
+		}
+		25% {
+			-webkit-transform: rotateY(360deg);
+			transform: rotateY(360deg);
+		}
+		75% {
+			-webkit-transform: rotateY(540deg);
+			transform: rotateY(540deg);
+		}
+		100% {
+			-webkit-transform: rotateY(720deg);
+			transform: rotateY(720deg);
+		}
+	}
+
+	.logologin3_two_124 {
+		background-repeat: no-repeat;
+		z-index: 13;
+		position: absolute;
+		top: 5vw;
+		left: 16vw;
+		background-size: 100%;
+		-webkit-animation-name: moon2_kf;
+		animation-name: moon2_kf;
+		-webkit-animation-duration: 7s;
+		animation-duration: 7s;
+		-webkit-animation-iteration-count: 1;
+		animation-iteration-count: 1;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both;
+		-webkit-animation-delay: 1.1s;
+		animation-delay: 1.1s;
+		-webkit-transform-origin: right;
+		transform-origin: right;
+		-webkit-animation-direction: reverse;
+		animation-direction: reverse;
+		-webkit-transition-timing-function: ease-in-out;
+		transition-timing-function: ease-in-out;
+	}
+
+	@keyframes moon2_kf {
+		0% {
+			left: 16vw;
+		}
+		25% {
+			left: 13vw;
+		}
+		75% {
+			left: 13vw;
+		}
+		100% {
+			left: 16vw;
+		}
+		0% {
+			-webkit-transform: rotateY(0deg);
+			transform: rotateY(0deg);
+		}
+		25% {
+			-webkit-transform: rotateY(360deg);
+			transform: rotateY(360deg);
+		}
+		75% {
+			-webkit-transform: rotateY(540deg);
+			transform: rotateY(540deg);
+		}
+		100% {
+			-webkit-transform: rotateY(720deg);
+			transform: rotateY(720deg);
+		}
+	}
+
+	.logologin3_two_125 {
+		background-repeat: no-repeat;
+		z-index: 13;
+		position: absolute;
+		top: 5vw;
+		left: 27vw;
+		background-size: 100%;
+		-webkit-animation-name: moon3_kf;
+		animation-name: moon3_kf;
+		-webkit-animation-duration: 7s;
+		animation-duration: 7s;
+		-webkit-animation-iteration-count: 1;
+		animation-iteration-count: 1;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both;
+		-webkit-animation-delay: 1.1s;
+		animation-delay: 1.1s;
+		-webkit-transform-origin: right;
+		transform-origin: right;
+		-webkit-animation-direction: alternate;
+		animation-direction: alternate;
+		-webkit-transition-timing-function: ease-in-out;
+		transition-timing-function: ease-in-out;
+	}
+
+	@keyframes moon3_kf {
+		0% {
+			left: 27vw;
+		}
+		25% {
+			left: 18vw;
+		}
+		50% {
+			left: 18vw;
+		}
+		100% {
+			left: 27vw;
+		}
+		0% {
+			-webkit-transform: rotateY(0deg);
+			transform: rotateY(0deg);
+		}
+		25% {
+			-webkit-transform: rotateY(360deg);
+			transform: rotateY(360deg);
+		}
+		75% {
+			-webkit-transform: rotateY(540deg);
+			transform: rotateY(540deg);
+		}
+		100% {
+			-webkit-transform: rotateY(720deg);
+			transform: rotateY(720deg);
+		}
+	}
+
+	.logologin3_two_126 {
+		background-repeat: no-repeat;
+		z-index: 13;
+		position: absolute;
+		top: 5vw;
+		left: 33vw;
+		background-size: 100%;
+		-webkit-animation-name: moon4_kf;
+		animation-name: moon4_kf;
+		-webkit-animation-duration: 7s;
+		animation-duration: 7s;
+		-webkit-animation-iteration-count: 1;
+		animation-iteration-count: 1;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both;
+		-webkit-animation-delay: 1.1s;
+		animation-delay: 1.1s;
+		-webkit-transform-origin: right;
+		transform-origin: right;
+		-webkit-animation-direction: reverse;
+		animation-direction: reverse;
+		-webkit-transition-timing-function: ease-in-out;
+		transition-timing-function: ease-in-out;
+	}
+
+	@keyframes moon4_kf {
+		0% {
+			left: 33vw;
+		}
+		50% {
+			left: 22vw;
+		}
+		75% {
+			left: 22vw;
+		}
+		100% {
+			left: 33vw;
+		}
+		0% {
+			-webkit-transform: rotateY(0deg);
+			transform: rotateY(0deg);
+		}
+		25% {
+			-webkit-transform: rotateY(360deg);
+			transform: rotateY(360deg);
+		}
+		75% {
+			-webkit-transform: rotateY(540deg);
+			transform: rotateY(540deg);
+		}
+		100% {
+			-webkit-transform: rotateY(720deg);
+			transform: rotateY(720deg);
+		}
+	}
+
+	.logologin3_folket {
+		display: none;
+	}
+
+	.logologin2 h1 {
+		margin: 16vw 0 0 5vw;
+		padding: 0;
+		font-size: 5vw;
+		height: 7vw;
+		color: #90ceff;
+	}
+
+	.motiver {
+		z-index: 250;
+		position: absolute;
+		top: 13vw;
+		left: 4.3vw;
+		width: 24.89vw;
+		height: 22.62vw;
+		background-image: url(../images_turen/logo_floket/cs_star18-25.svg);
+		background-size: 448.02vw 22.62vw;
+		background-repeat: no-repeat;
+		-webkit-animation: motiv_kf 4s 3 steps(18);
+		animation: motiv_kf 4s 3 steps(18);
+	}
+
+	@keyframes motiv_kf {
+		0% {
+			background-position: 0vw;
+		}
+		100% {
+			background-position: -448.02vw;
+		}
+	}
+
+	/**************BAGGRUND**LOGO**SLUT******************/
+	/**************LAPTOP**GENERALT**********************/
+	div {
+		-webkit-transition: ease-in-out 0.2s;
+		transition: ease-in-out 0.2s;
+	}
+
+	h2 {
+		font-size: 35px;
+		color: #f51021;
+	}
+
+	h3 {
+		font-family: 'concert one';
+		font-size: 55px;
+		color: #000;
+		font-weight: 700;
+	}
+
+	h4 {
+		color: #90ceff;
+	}
+
+	h5 {
+		font-size: 18px;
+	}
+
+	h6 {
+		font-size: 25px;
+		padding-left: 40px;
+		font-weight: 700;
+		color: #90ceff;
+	}
+
+	span {
+		-webkit-transition: ease-in-out 0.2s;
+		transition: ease-in-out 0.2s;
+	}
+	/**************LAPTOP**GENERALT**SLUT********************/
+	/**************TOP**NAVBAR************************/
+	.nav {
+		font-size: 30px;
+	}
+
+	.callto h2 {
+		color: #F51021;
+		font-size: 3vw;
+		background-repeat: no-repeat;
+		z-index: 13;
+		background-size: 100%;
+		-webkit-animation-name: affix_kf;
+		animation-name: affix_kf;
+		-webkit-animation-duration: 0.8s;
+		animation-duration: 0.8s;
+		-webkit-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both;
+		-webkit-animation-delay: 1.1s;
+		animation-delay: 1.1s;
+		-webkit-animation-direction: reverse;
+		animation-direction: reverse;
+		-webkit-transition-timing-function: ease-in-out;
+		transition-timing-function: ease-in-out;
+	}
+
+	@keyframes affix_kf {
+		0% {
+			-webkit-transform: scale(1);
+			transform: scale(1);
+		}
+		50% {
+			-webkit-transform: scale(1.01);
+			transform: scale(1.01);
+		}
+		100% {
+			-webkit-transform: scale(1);
+			transform: scale(1);
+		}
+	}
+
+	#myNavbar ul li a {
+		color: #8B8911;
+		font-family: 'source sans pro';
+	}
+
+	#myNavbar ul li a:hover {
+		color: #716F08;
+	}
+
+	#top-image {
+		background: url('../images_turen/cs_flovding_bg_light_30_3333.png') -25px -50px;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background-size: calc(100% + 50px);
+	}
+
+	/**************TOP**NAVBAR**SLUT**********************/
+	/**************VALG**VIDEO********************/
+	/**************VALG**VIDEO**SLUT******************/
+	#section1 {
+		margin: 40px 25px 25px 25px;
+	}
+	/***************PROCESBAR**INFOGRAFIK******************/
+	#section2 h5 {
+		font-size: 16px;
+	}
+	/***************PROCESBAR**INFOGRAFIK**SLUT****************/
+	/*******************PERSONA**VALGINFO****************/
+	.json_form {
+		background-image: url(../images_turen/logo_floket/cs_body_button_hoest.png);
+		position: relative;
+		height: 225px;
+		width: 225px;
+		z-index: 1;
+		color: #fff;
+		text-decoration: none;
+		background-color: #202020;
+		margin: 10px 10px;
+		border-radius: 55% 27% 55% 27%;
+	}
+
+	.temp_navn span {
+		font-size: 14px;
+	}
+
+	.temp_reg img {
+		width: 110px;
+		margin-top: 0;
+		padding-left: 20px;
+	}
+
+	.temp_pers img {
+		height: 60px;
+		margin-top: 0;
+	}
+	/*******************PERSONA**VALGINFO**SLUT**************/
+	/*******************PARTIINFO**LOGOLINKS**************/
+	/*******************PARTIINFO**LOGOLINKS**SLUT************/
+	/*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
+	footer {
+		background-image: url();
+	}
+
+	#map {
+		margin-top: 30px;
+		height: 250px;
+		display: block;
+	}
+
+	.keainfo_map h6 {
+		margin-top: 30px;
+		font-size: 25px;
+		color: whitesmoke;
+		padding-top: 10px;
+		font-family: 'source sans pro';
+	}
+
+	.keainfo h6 {
+		font-size: 25px;
+		color: whitesmoke;
+		padding-top: 10px;
+		font-family: 'source sans pro';
+	}
+
+	.likontaktinfo a {
+		font-size: 20px;
+		font-family: 'source sans pro';
+	}
+
+	.likontaktinfo {
+		text-align: center;
+	}
+
+	.likontaktinfo h4 {
+		line-height: 0.5;
+		font-size: 20px;
+	}
+
+	.keaside_top {
+		margin-top: 20px;
+		font-size: 17px;
+	}
+
+	.keaside_bund {
+		margin-top: 130px;
+		font-size: 17px;
+	}
+
+	.some {
+		display: none;
+	}
+
+	.some_ikon {
+		margin: 26px 0 0 0;
+		display: block;
+	}
+
+	.some_ikon img {
+		width: 40px;
+	}
+
+	.some_2017 {
+		margin-top: 46px;
+		display: block;
+	}
+}
+
+
+/*******************FOOTER**KONTAKT**GOOGLE**MAPS**SLUT**********/
+
+/**************LAPTOP**LANDSKAB**SLUT************************/

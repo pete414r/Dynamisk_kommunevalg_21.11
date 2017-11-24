@@ -1,0 +1,178 @@
+body {
+	background: #fff;
+	color: #000;
+}
+#top-image{
+	background-image: url(../images_turen/cs_flovding_bg_light_30_3333.png);
+	background-size: 100%;
+	width: 100%;
+}
+ nav{
+	 z-index: 10;
+	position: absolute;
+	left: 55vw;
+}
+ nav a{
+	 font-size: 15px;
+}
+.videocontainer {
+	position: relative;
+}
+
+video {
+	background-size: 100%;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 99%;
+	min-height: 99%;
+	z-index: -100;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background: url() no-repeat;
+	background-size: cover;
+}
+
+.hs-responsive-embed-youtube {
+	position: relative;
+	padding-bottom: 56.25%;
+	/* 16:9 Aspect Ratio */
+	padding-top: 25px;
+}
+
+.form-right:hover {
+	transform: rotateY(180deg); /* Standard syntax */
+	height: 15vw;
+	width: 18vw;
+}
+
+.form-right{
+	height: 15vw;
+	width: 18vw;
+	transform: rotateY(0deg);
+	transition: transform 1.2s;
+	background-image: url(../images_turen/cs_voting_card_gul_test.svg);
+	background-size:100%;
+	background-repeat: no-repeat;
+	transition-timing-function: ease-in-out;
+}
+
+.container{
+	width: 560px;
+}
+
+.modal-body {
+   background-image: url(../images_turen/cs_flovding_bg_light_30_3333.png);
+}
+
+.center {
+	width: 50vw;
+	margin: 0 auto;
+}
+
+form{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#endcredits {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 40vw;
+}
+
+
+#endcriditbuttons {
+	z-index: 10;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	animation: calltoacton_kf 1s infinite linear;
+}
+
+
+@keyframes calltoacton_kf {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(0.95);
+	}
+	100% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(0.95);
+	}
+
+}
+
+h6{
+	color: #0479be;
+	font-size: 30px;
+	text-align: center;
+}
+h5{
+	color: #0479be;
+	font-size: 23px;
+	text-align: center;
+}
+h4{
+	color: #0479be;
+	font-size: 35px;
+	text-align: center;
+	font-weight: 900;
+}
+
+#endcriditbuttons ul li{
+	display: flex;
+	text-align: left;
+	margin-left: 60px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#annotation {
+	left:15px;
+	top: 40px;
+	position: absolute;
+	background-size: 100%;
+	border-radius: 20%;
+	margin-left: 10px;
+	width: 40px;
+	height: 38px;
+	background-image: url(../images_turen/cs_logo_gul_small_123_test22.svg);
+	background-repeat: no-repeat;
+	text-align: center;
+}
+#annotationcallto{
+	position: absolute;
+	background-size: 100%;
+	left: 15px;
+	top: 90px;
+		color: #f51021;
+
+}
+button {
+	margin-top: 5px;
+	margin-left: 15px;
+}
+.vinner-center{
+	margin-top: 40px;
+
+}
+
+.modallen{
+	z-index: 120;
+}
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+	 nav a{
+	 font-size: 25px;
+}
+
+}

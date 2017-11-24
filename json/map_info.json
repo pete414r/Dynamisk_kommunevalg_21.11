@@ -1,0 +1,84 @@
+[
+	{
+		"id": "Tv2bornholm",
+		"lng": 14.915443,
+		"lat": 55.076224,
+		"ll": "55.076224, 14.915443",
+
+		"images1": "images_turen/region_map/tv2bornholm1.png",
+		"icon": "images_turen/region_map/tv2bornholm.png",
+		"title": "Regionsforvaltning ligger i Hillerød",
+		"txt": "http://www.tv2bornholm.dk/"
+    }, {
+		"id": "Tv2østjylland",
+		"lng": 10.188259,
+		"lat": 56.194225,
+		"ll": "56.194225, 10.188259",
+
+		"images1": "images_turen/region_map/tv2ostjylland1.png",
+		"icon": "images_turen/region_map/tv2ostjylland.png",
+		"title": "Regionsforvaltning ligger i Viborg",
+		"txt": "https://www.tv2ostjylland.dk/nyheder"
+    }, {
+		"id": "Tv2nord",
+		"lng": 9.736235,
+		"lat": 57.152197,
+		"ll": "57.152197, 9.736235",
+
+		"images1": "images_turen/region_map/tv2nord1.png",
+		"icon": "images_turen/region_map/tv2nord.png",
+		"title": "Regionsforvaltning ligger i Aalborg",
+		"txt": "https://www.tv2lorry.dk/nyheder"
+    }, {
+		"id": "Tv2fyn",
+		"lng": 10.439667,
+		"lat": 55.383495,
+		"ll": "55.383495, 10.439667",
+
+		"images1": "images_turen/region_map/tv2fyn1.png",
+		"icon": "images_turen/region_map/tv2fyn.png",
+		"title": "Regionsforvaltning ligger i Vejle",
+		"txt": "https://www.tv2fyn.dk/nyheder"
+    }, {
+		"id": "Tvsyd",
+		"lng": 9.421544,
+		"lat": 55.467181,
+		"ll": "55.467181, 9.421544",
+
+		"images1": "images_turen/region_map/tvsyd1.png",
+		"icon": "images_turen/region_map/tvsyd.png",
+		"title": "Regionsforvaltning ligger i Vejle",
+		"txt": "https://www.tvsyd.dk/nyheder"
+    }, {
+		"id": "Tvøst",
+		"lng": 11.918823,
+		"lat": 55.014599,
+		"ll": "55.014599, 11.918823",
+
+		"images1": "images_turen/region_map/tvost1.png",
+		"icon": "images_turen/region_map/tvost.png",
+		"title": "Regionsforvaltning ligger i Sorø",
+		"txt": "https://www.tveast.dk/nyheder"
+    }, {
+		"id": "Tvmidtvest",
+		"lng": 8.642342,
+		"lat": 56.367803,
+		"ll": "56.367803, 8.642342",
+
+		"images1": "images_turen/region_map/tvmidtvest1.png",
+		"icon": "images_turen/region_map/tvmidtvest.png",
+		"title": "Regionsforvaltning ligger i Viborg",
+		"txt": "https://www.Tvmidtvest.dk/nyheder"
+    },	{
+		"id": "TV2 Lorry Regionerne",
+		"lng": 12.531666,
+		"lat": 55.675838,
+		"ll": "55.675838, 12.531666",
+
+		"images1": "images_turen/logo_folket/TV2_Lorry_logo.png",
+		"icon": "images_turen/region_map/icon-10.png",
+		"title": "Allégade 7-9 2000 Frederiksberg. Regionsforvaltning ligger i Hillerød",
+		"txt": "https://www.tv2lorry.dk/nyheder"
+    }
+
+]

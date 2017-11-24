@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Byråd Regionsråd</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="css/videoresp.css" type="text/css">
+
+</head>
+<body>
+				<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12  col-lg-12 text-justify">
+				<div class="videocontainer">
+				<div id="annotation"> </div>
+<div id="annotationcallto"> </div>
+<nav>
+<a href="kommunalvalg.html" target="_self"> Kommunalvalg </a>
+<a href="https://www.facebook.com/Kommunal-og-Regionsvalg-2017-1174689772639649/" target="_blank"> Facebook.dk </a>
+<a href="http://www.tv2lorry.dk" target="_self"> Tv2lorry.dk </a></nav>
+<div id="annotationbutton">
+				 <button onclick="playPause()">Play/Pause</button>
+<button onclick="enableMute()" type="button">Mute</button>
+<button onclick="disableMute()" type="button">Sound</button>
+    </div>
+ <!-- Modal -->
+  <div class="modal" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Du har vundet i find -call to action!-</h4>
+        </div>
+        <div class="modal-body">
+       <div class="vinner-center"><h5>Deltag i udtrækningen af et gavekort fra Godream til en middag for to (værdi fra 99 kr)</h5><h5>Indsend dit navn mail og alder</h5><h5>vinderen får direkte desked via E-mail</h5><h6>Udtrækningen er på valgdagen</h6></div>
+        <div class="container">
+        	<div class="row">
+        		<div class="col-xs-6">
+         <form action="mailto:pete414r@stud.kea.dk" method="post" enctype="text/plain">
+                    Navn så vi kender dig
+                    <br>
+                    <input type="text" name="name">
+                    <br> E-mail hvis du vinder
+                    <br>
+                    <input type="text" name="mail">
+                    <br> Alder mellem 18 og 25 år
+                    <br>
+                    <input type="text" name="comment" size="20">
+                    <br>
+                    <br>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </form></div>
+				<div class="col-xs-6 form-right"></div>
+        	</div>
+        </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn" data-dismiss="modal">Luk</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+				<div id="endcredits">
+					<div id="endcriditbuttons"> CTA -> <a type="button" class="btn btn-link btn-succes btn-lg" data-toggle="modal" data-target="#myModal">Konkurrence -Call to action-</a></div>
+				</div>
+
+					<video width="100%" id="radissonvideo">
+						<source src="valg_video/cs_valg2017_kamp_14.11.mp4" type="video/mp4"> din browser virker ikke
+					</video>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/popcorn-complete.js"></script>
+<script src="js/kommunalvalg_valgvideo.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
