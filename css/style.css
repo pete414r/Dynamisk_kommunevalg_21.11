@@ -37,7 +37,7 @@ h3 {
 	-webkit-transition: ease-in-out 0.2s;
 	transition: ease-in-out 0.2s;
 	font-family: 'concert one';
-	font-size: 5rem;
+	font-size: 7vw;
 	padding-left: 110px;
 	padding-bottom: 10px;
 	color: #101010;
@@ -258,7 +258,7 @@ body {
 }
 
 .center {
-	width: 87vw;
+	width: 80vw;
 	margin: 0 auto;
 }
 
