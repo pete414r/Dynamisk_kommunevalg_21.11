@@ -563,26 +563,20 @@ span h2 {
 /*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
 
 .keaside_top {
-	margin-top: 80px;
-	font-size: 12px;
 	display: none;
 }
-
-.keaside_top a {
-	font-family: "Times New Roman";
-	color: #fff;
-}
-
 .keaside_bund {
-	margin-top: 80px;
+	margin: 20px 0 0 0;
+	padding: 0;
 	font-size: 12px;
 	text-align: center;
-}
+	}
 
-.keaside_bund a {
+	.keaside_bund a {
 	font-family: "Times New Roman";
 	color: #fff;
 }
+
 
 .keainfo h6 {
 	margin: 30px 0 0 0;
@@ -845,9 +839,16 @@ span h2 {
 	}
 
 	.keaside_top {
+		margin-top: 80px;
+	font-size: 12px;
 		margin-top: 30px;
 		display: block;
 	}
+
+	.keaside_top a {
+	font-family: "Times New Roman";
+	color: #fff;
+}
 
 	.keaside_bund {
 		display: none;
@@ -1569,8 +1570,7 @@ span h2 {
 	}
 
 	.keaside_bund {
-		margin-top: 130px;
-		font-size: 17px;
+		display: none;
 	}
 
 	.some {
