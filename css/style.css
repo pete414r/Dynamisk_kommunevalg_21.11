@@ -145,6 +145,7 @@ body {
 /**************TOP**NAVBAR************************/
 
 .affixbar {
+	max-width: 1366px;
 	text-align: center;
 	background-color: rgba(72, 38, 37, 0);
 	color: #fff;
@@ -716,6 +717,7 @@ span h2 {
 	}
 
 	.logologin4 img {
+		max-width: 1366px;
 		margin: 2vw 0 2vw 0;
 		height: 1.5vw;
 	}
@@ -918,6 +920,7 @@ span h2 {
 
 	/**************BAGGRUND**LOGO********************/
 	body {
+		max-width: 1366px;
 		background-color: #0079ba;
 		background-image: url(../images_turen/laptop16x9-5120-x-2950_medium.jpg);
 	}
@@ -933,7 +936,7 @@ span h2 {
 	}
 	.logotekst h5 {
 		display: block;
-		font-size: 2vw;
+		font-size: 27px;
 		font-weight: 400;
 		padding-top: 2.2vw;
 		color: #90ceff;
@@ -1388,12 +1391,13 @@ span h2 {
 	.logologin2 h1 {
 		margin: 16.5vw 0 0 5vw;
 		padding: 0;
-		font-size: 5vw;
+		font-size: 55px;
 		height: 7vw;
 		color: #90ceff;
 	}
 
 	.motiver {
+	max-width: 1366px;
 		z-index: 250;
 		position: absolute;
 		top: 13vw;
@@ -1460,9 +1464,9 @@ span h2 {
 		font-size: 30px;
 	}
 
-	callto h2{
+	.callto h2{
 		color: #F51021;
-		font-size: 3vw;
+		font-size: 40px;
 	}
 
 	#myNavbar ul li a {
