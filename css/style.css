@@ -5,8 +5,8 @@
 @import 'https://fonts.googleapis.com/css?family=Concert+One';
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro';
 * {
-	max-width: 1366px;
-	margin: 0 auto;
+	max-width: 1920px;
+	margin: auto;
 }
 
 /**************GOOGLE**FONT**SLUT************************/
@@ -16,10 +16,10 @@
 h1 {
 	-webkit-transition: ease-in-out 0.2s;
 	transition: ease-in-out 0.2s;
-	margin-left: 30px;
+	margin-left: 4vw;
 	font-family: 'concert one';
-	padding: 20px;
-	font-size: 40px;
+	padding: 3vw;
+	font-size: 6vw;
 	color: whitesmoke;
 }
 
@@ -29,7 +29,7 @@ h2 {
 	line-height: 0;
 	text-align: center;
 	font-weight: bolder;
-	font-size: 20px;
+	font-size: 4vw;
 	color: #f51021;
 }
 
@@ -37,9 +37,9 @@ h3 {
 	-webkit-transition: ease-in-out 0.2s;
 	transition: ease-in-out 0.2s;
 	font-family: 'concert one';
-	font-size: 7vw;
-	padding-left: 110px;
-	padding-bottom: 10px;
+	font-size: 7.5vw;
+	padding-left: 13vw;
+	padding-bottom: 2vw;
 	color: #101010;
 	font-weight: 700;
 }
@@ -48,9 +48,9 @@ h4 {
 	-webkit-transition: ease-in-out 0.2s;
 	transition: ease-in-out 0.2s;
 	font-family: 'concert one';
-	font-size: 30px;
-	padding-left: 110px;
-	padding-bottom: 10px;
+	font-size: 5vw;
+	padding-left: 13vw;
+	padding-bottom: 11vw;
 	color: #101010;
 	/* color: #553E6E;*/
 	font-weight: 700;
@@ -61,18 +61,18 @@ h5 {
 	-webkit-transition: ease-in-out 0.2s;
 	transition: ease-in-out 0.2s;
 	font-family: 'concert one';
-	font-size: 12px;
-	padding-left: 50px;
+	font-size: 3vw;
+	padding-left: 7vw;
 	color: #fff;
 }
 
 h6 {
 	-webkit-transition: ease-in-out 0.2s;
 	transition: ease-in-out 0.2s;
-	font-size: 20px;
+	font-size: 5vw;
 	color: whitesmoke;
-	padding-left: 65px;
-	padding-bottom: 10px;
+	padding-left: 8vw;
+	padding-bottom: 1vw;
 	font-weight: 600;
 	font-family: 'concert one';
 }
@@ -87,6 +87,7 @@ a {
 /**************BAGGRUND**LOGO********************/
 
 body {
+	position: relative;
 	background-color: #91759b;
 	width: 100%;
 	height: 100%;
@@ -126,11 +127,11 @@ body {
 	display: none;
 }
 
-.logologin3 img {
+.logologin3_two img {
 	display: none;
 }
 
-.logologin3_two img {
+.logologin3 img {
 	display: none;
 }
 
@@ -144,7 +145,6 @@ body {
 /**************TOP**NAVBAR************************/
 
 .affixbar {
-	max-width: 1366px;
 	text-align: center;
 	background-color: rgba(72, 38, 37, 0);
 	color: #fff;
@@ -159,6 +159,7 @@ body {
 
 .callto {
 	text-align: center;
+
 }
 
 .callto h2 {
@@ -206,7 +207,7 @@ body {
 
 .nav {
 	z-index: 10;
-	font-size: 20px;
+	font-size: 2.5vw;
 	font-weight: bolder;
 }
 
@@ -231,35 +232,32 @@ body {
 /**************VALG**VIDEO********************/
 
 #section1 {
+	height: 100%;
 	z-index: 100;
 	background-color: rgba(153, 123, 187, 0.0);
-	margin: 20px 20px 0 20px;
-	padding: 0 20px 0 20px;
+}
+
+#section1 h3 {
+	margin-top: 10vw;
 }
 
 .hs-responsive-embed-youtube {
 	width: 100%;
 	height: 100%;
-	position: relative;
 	padding-bottom: 60%;
 	/* 16:9 Aspect Ratio */
-	background-color: rgba(0, 0, 0, 0.7);
-	border-top: 5px solid rgba(0, 0, 0, 0);
-	border-right: 5px solid rgba(0, 0, 0, 0);
-	border-bottom: 5px solid rgba(0, 0, 0, 0);
-	border-left: 5px solid rgba(0, 0, 0, 0);
-	border-radius: 5px;
+	margin: auto;
 }
 
 .hs-responsive-embed-youtube iframe {
 	position: absolute;
-	width: 100%;
-	height: 100%;
+	width: 80%;
+	height: 68%;
 }
 
 .center {
-	width: 80vw;
-	margin: 0 auto;
+	width: 78vw;
+	margin: auto;
 }
 
 /**************VALG**VIDEO**SLUT******************/
@@ -267,74 +265,82 @@ body {
 /***************PROCESBAR**INFOGRAFIK******************/
 
 #section2 {
-	margin: 0 20px 0 20px;
-	padding: 0 20px 0 20px;
+	background-size: 100%;
+	height: 65vw;
+}
+
+#section2 h3 {
+	margin-top: 10vw;
+}
+
+.progress {
+	height: 4vw;
+	width: 85vw
+}
+
+.arrow {
+	position: absolute;
+	top: 64.3vw;
+	left: 5vw;
+	-webkit-transition: ease-in-out 0.3s;
+	transition: ease-in-out 0.3s;
+	border-top: 3vw solid transparent;
+	border-right: 4vw solid whitesmoke;
+	border-bottom: 01vw solid transparent;
+}
+
+
+
+#section2 h4 {
+	position: absolute;
+	top: 58vw;
+	left: 1vw;
+	font-family: 'concert one';
+	font-size: 3vw;
+	padding-left: 0;
+	color: #101010;
+	/* color: #553E6E;*/
+	font-weight: 700;
 }
 
 #section2 h5 {
-	line-height: 1.5;
+	width: 96%;
+	z-index: 100;
+	position: absolute;
+	top: 66vw;
+	left: 2vw;
+	-webkit-transition: ease-in-out 0.5s;
+	transition: ease-in-out 0.5s;
+	line-height: 2.5vw;
 	font-family: 'source sans pro';
-	font-size: 13px;
-	padding: 15px 5px 5px;
+	font-size: 2.3vw;
+	padding: 1vw;
 	color: #101010;
-	font-weight: 900;
+	font-weight: 600;
 	background-color: whitesmoke;
 	border-radius: 5px;
 }
 
-.progress {
-	max-width: 1300px;
-}
-
 #valgturen {
-	max-width: 1300px;
 	height: 100%;
 	background-size: 100%;
 	border-radius: 5px;
 }
 
-.valgturentext {
-	max-width: 1300px;
-	width: 100%;
-	height: 100%;
-	background: whitesmoke;
-	position: relative;
-	border-radius: 5px;
-}
-
-.valgturentext:before {
-	content: "";
-	position: absolute;
-	top: -22px;
-	left: 36px;
-	width: 0;
-	height: 0;
-	border-top: 23px solid transparent;
-	border-right: 36px solid whitesmoke;
-	border-bottom: 3px solid transparent;
-}
-
 /***************PROCESBAR**INFOGRAFIK**SLUT****************/
 
-#section4 {
-	border-radius: 10px;
-	margin: 0 10px 0 10px;
+/***************REGIONER****************/
+
+#section3 {
+	display: none;
 }
 
-#section4 h5 {
-	line-height: 1.5;
-	font-family: 'concert one';
-	font-size: 13px;
-	padding: 0 5px 15px 0;
-	color: #000;
-}
+/***************REGIONER**SLUT****************/
+
+/***************PARTIINFO**SLUT****************/
 
 #section4 h6 {
-	margin-left: 13px;
-}
-
-.parti_max {
-	max-width: 1300px;
+	margin-top: 13vw;
 }
 
 .pic {
@@ -347,10 +353,10 @@ body {
 }
 
 .pic:hover .text1 {
-	padding: 20px 4px 0 0;
+	padding: 15px 0 4px 0;
 	opacity: 0.8;
 	text-align: center;
-	font-size: 11px;
+	font-size: 10px;
 	font-weight: 700;
 	border-radius: 50%;
 }
@@ -429,164 +435,42 @@ body {
 
 /************Dynamisk**parti************************/
 
-#section3 {
-	display: none;
-}
+/************Dynamisk**parti**slut**********************/
+
+/*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
 
 footer {
 	background-image: url(../images_turen/cs_flovding_bg_light_30_3333.png);
 	background-color: #000;
 }
 
-#teksten_union {
-	display: inline;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	margin: 0;
-	padding: 0;
-}
-
-span h2 {
-	text-align: center;
-	font-size: 14px;
-}
-
-.colorbox {
-	width: 200px;
-	height: 20px;
-	display: block;
-	border: 3px solid #fff;
-	border-radius: 50%;
-}
-
-.temp_navn {
-	display: block;
-	margin-right: 10px;
-	margin-left: 10px;
-}
-
-.vaegt_navn {
-	display: -webkit-inline-box;
-	display: -ms-inline-flexbox;
-	display: inline-flex;
-	margin-right: 10px;
-}
-
-.hojde_navn {
-	display: -webkit-inline-box;
-	display: -ms-inline-flexbox;
-	display: inline-flex;
-	margin-right: 10px;
-}
-
-.color_navn span {
-	text-decoration: none;
-	color: white;
-	text-align: left;
-	margin: 0 1px 0 0;
-}
-
-.color_navn img {
-	margin-top: 25px;
-}
-
-.json_form button {
-	width: 100%;
-	height: 84%;
-	padding: 0;
-	margin: 8% 0.3% 0 0;
-	border: 0;
-}
-
-.temp_navn span {
-	font-size: 11px;
-}
-
-.temp_reg img {
-	width: 80px;
-	margin: 0;
-	padding-left: 20px;
-}
-
-.temp_pers img {
-	height: 40px;
-	margin-top: 0;
-}
-
-.modal-header {
-	background-image: url(../images_turen/logo_floket/cs_baggrund_hoest.png);
-	background-size: cover;
-}
-
-.modal-body {
-	opacity: 50;
-	background-image: url(../images_turen/logo_floket/cs_body_button_hoest.png);
-	background-size: cover;
-	background-color: lightyellow;
-}
-
-.modal-footer {
-	background-image: url(../images_turen/logo_floket/cs_baggrund_hoest.png);
-	background-size: cover;
-}
-
-.modal.fade .modal-dialog {
-	-webkit-transform: scale(0.1);
-	transform: scale(0.1);
-	top: 300px;
-	opacity: 0;
-	-webkit-transition: all 0.15s;
-	transition: all 0.15s;
-}
-
-.modal.fade.in .modal-dialog {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transform: translate3d(0, -300px, 0);
-	transform: translate3d(0, -300px, 0);
-	opacity: 1;
-}
-
-.in {
-	display: none;
-}
-
-/************Dynamisk**parti**slut**********************/
-
-/*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
-
 .keaside_top {
 	display: none;
 }
 
 .keaside_bund {
-	margin: 20px 0 0 0;
+	margin: 2vw 0 0 0;
 	padding: 0;
-	font-size: 12px;
+	font-size: 1.2vw;
 	text-align: center;
 }
 
 .keaside_bund a {
 	font-family: "Times New Roman";
 	color: #fff;
+	font-size: 2vw;
 }
 
 .keainfo h6 {
-	margin: 30px 0 0 0;
-	font-size: 15px;
+	margin: 3vw 0 0 0;
+	font-size: 1.5vw;
 	text-align: center;
-	padding: 0 0 0 0;
+	padding: 0;
+	color: whitesmoke;
 	font-family: 'source sans pro';
 }
 
 .likontaktinfo {
-	margin-top: 0;
 	text-align: center;
 }
 
@@ -594,37 +478,14 @@ span h2 {
 	color: black;
 }
 
-.likontaktinfo a {
-	font-size: 13px;
-	font-family: 'source sans pro';
-}
-
 .likontaktinfo h4 {
-	line-height: 0.7;
-	padding: 0 0 0 10px;
-	font-size: 13px;
+	line-height: 1.5vw;
+	padding: 0;
+	font-size: 2vw;
 	font-family: 'source sans pro';
 	font-weight: 500;
 	color: grey;
 	text-align: center;
-}
-
-.res-responsive {
-	padding-top: 10px;
-	width: 100%;
-	height: 100%;
-}
-
-.lorry img {
-	height: 50px;
-	width: 100px;
-	padding-bottom: 0;
-	margin-top: 20px;
-}
-
-.con_some {
-	padding-top: 0;
-	margin-top: 0;
 }
 
 .some_2017 {
@@ -636,7 +497,7 @@ span h2 {
 }
 
 .some {
-	margin-top: 10px;
+	margin-top: 2vw;
 	text-align: center;
 }
 
@@ -658,6 +519,10 @@ span h2 {
 	margin: 20px 0 0 0;
 	padding: 0;
 }
+.con_some {
+	padding-top: 0;
+	margin-top: 0;
+}
 
 /*******************FOOTER**KONTAKT**GOOGLE**MAPS**SLUT**********/
 
@@ -666,27 +531,33 @@ span h2 {
 /**************TABLET**LANDSKAB************************/
 
 @media screen and (min-width: 768px) and (orientation: landscape) {
+
 	/**************BAGGRUND**LOGO********************/
+
 	body {
 		background-color: rgba(204, 112, 178, 0.96);
 		background-image: url(../images_turen/tabletlandskab-1024-x800.jpg);
 	}
+
 	.logologin img {
-		width: 35%;
+		width: 33vw;
 	}
+
 	.logotekst h5 {
 		display: block;
-		font-size: 2vw;
+		font-size: 1.9vw;
 		font-weight: 600;
 		color: whitesmoke;
 		padding-bottom: 0.7vw;
 		font-family: 'source sans pro';
 	}
+
 	.logologin2 {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
 	}
+
 	.logologin2 h1 {
 		margin: 0 0 0 24vw;
 		padding: 0;
@@ -694,12 +565,14 @@ span h2 {
 		font-weight: 500;
 		height: 6vw;
 	}
+
 	.logologin2 img {
 		margin-top: 15vw;
-		width: 30vw;
+		width: 45vw;
 		height: 11vw;
 		background-repeat: no-repeat;
 	}
+
 	.logologin3_folket {
 		background-size: 100%;
 		background-image: url(../images_turen/logo_floket/cs_folket.svg);
@@ -709,84 +582,121 @@ span h2 {
 		height: 7vw;
 		background-repeat: no-repeat;
 	}
+
 	.logologin3_two img {
 		display: none;
 	}
+
 	.logologin3 img {
 		display: none;
 	}
+
 	.logologin4 img {
-		max-width: 1366px;
 		margin: 2vw 0 2vw 0;
 		height: 1.5vw;
 	}
+
 	/**************BAGGRUND**LOGO**SLUT******************/
 	/**************TABLET**LANDSKAB**GENERALT**********************/
 	h1 {
 		color: #7b365d
 	}
+
 	h2 {
-		font-size: 15px;
+		font-size: 2vw;
 		color: #C9181D;
 	}
+
 	h3 {
-		margin: 40px 20px 5px 20px;
-		font-size: 40px;
+		margin: 5vw 23vw 1vw 3vw;
+		font-size: 5vw;
 		color: #0479be;
 		font-weight: 700;
 		color: #101010;
 	}
+
 	h4 {
-		font-size: 35px;
+		font-size: 4vw;
 		color: #7b365d;
 	}
+
 	h5 {
-		font-size: 15px;
+		font-size: 2vw;
 		padding-top: 2vw;
 		color: #7b365d;
 	}
+
 	h6 {
-		font-size: 20px;
+		font-size: 3vw;
 		font-weight: 700;
 		color: whitesmoke;
 	}
+
 	/**************TABLET**LANDSKAB**GENERALT**SLUT********************/
 	/**************TOP**NAVBAR************************/
-	.nav {
-		font-size: 25px;
-	}
 	.affixbar {
 		background-color: rgba(153, 123, 187, 0);
 		height: 65px;
 	}
+
 	.callto h2 {
 		font-size: 3vw;
 	}
 	/**************TOP**NAVBAR**SLUT**********************/
 	/**************VALG**VIDEO********************/
-	.center {
-		max-width: 500px;
+	#section1 h3 {
+		margin-top: 5vw;
 	}
+
+
+
 	/**************VALG**VIDEO**SLUT******************/
 	/***************PROCESBAR**INFOGRAFIK******************/
-	#section2 h5 {
-		line-height: 1.5;
-		font-size: 18px;
+	#section2 {
+		background-size: 100%;
+		height: 65vw;
 	}
+
+	#section2 h3 {
+		margin-top: 10vw;
+	}
+
+	.progress {
+		height: 3vw;
+		width: 85vw
+	}
+
+	.arrow {
+		top: 55vw;
+	}
+
+
+
+	#section2 h4 {
+		top: 50vw;
+		font-size: 2.8vw;
+	}
+
+	#section2 h5 {
+		top: 56.3vw;
+		font-size: 1.7vw;
+	}
+
 	/***************PROCESBAR**INFOGRAFIK**SLUT****************/
 	/*******************PERSONA**VALGINFO**DYNAMICK**************/
 	#section3 {
 		display: block;
 		z-index: 100;
-		margin: 10px 20px 20px 20px;
-		padding: 0 20px 0 20px;
+		margin: 1vw;
+		padding: 0 2vw 0 2vw;
 	}
+
 	#section3 .modal-body span {
 		color: black;
 	}
+
 	.json_form {
 		background-image: url(../images_turen/logo_floket/cs_body_button_hoest.png);
-		position: relative;
 		height: 185px;
 		width: 185px;
 		z-index: 1;
@@ -796,90 +706,231 @@ span h2 {
 		margin: 3px 3px;
 		border-radius: 55% 27% 55% 27%;
 	}
+
 	.temp_forma {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
 	}
-	/*******************PERSONA**VALGINFO**SLUT**************/
-	/*******************PARTIINFO**LOGOLINKS**************/
-	/*******************PARTIINFO**LOGOLINKS**SLUT************/
-	/*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
-	.keainfo h6 {
-		margin-top: 30px;
-		font-size: 18px;
-		padding-left: 0;
-		padding-bottom: 0;
-		color: whitesmoke;
-		font-family: 'source sans pro';
+
+	#teksten_union {
+		display: inline;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		margin: 0;
+		padding: 0;
 	}
-	.likontaktinfo {
+
+
+	span h2 {
 		text-align: center;
+		font-size: 2vw;
 	}
-	.likontaktinfo h4 {
-		line-height: 0.7;
-		padding: 7px 0 0 10px;
+
+	.colorbox {
+		width: 30vw;
+		height: 3vw;
+		display: block;
+		border: 0.5vw solid #fff;
+		border-radius: 50%;
+	}
+
+	.temp_navn {
+		display: block;
+		margin-right: 1vw;
+		margin-left: 1vw;
+	}
+
+	.vaegt_navn {
+		display: -webkit-inline-box;
+		display: -ms-inline-flexbox;
+		display: inline-flex;
+		margin-right: 1vw;
+	}
+
+	.hojde_navn {
+		display: -webkit-inline-box;
+		display: -ms-inline-flexbox;
+		display: inline-flex;
+		margin-right: 1vw;
+	}
+
+	.color_navn span {
+		text-decoration: none;
+		color: white;
+		text-align: left;
+		margin: 0;
+	}
+
+	.json_form button {
+		width: 100%;
+		height: 84%;
+		padding: 0;
+		margin: 8% 0.3% 0 0;
+		border: 0;
+	}
+
+	.temp_navn span {
+		font-size: 11px;
+	}
+
+	.temp_reg img {
+		width: 80px;
+		margin: 0;
+		padding-left: 20px;
+	}
+
+	.temp_pers img {
+		height: 40px;
 		margin-top: 0;
 	}
+
+	.modal-header {
+		background-image: url(../images_turen/logo_floket/cs_baggrund_hoest.png);
+		background-size: cover;
+	}
+
+	.modal-body {
+		opacity: 50;
+		background-image: url(../images_turen/logo_floket/cs_body_button_hoest.png);
+		background-size: cover;
+		background-color: lightyellow;
+	}
+
+	.modal-footer {
+		background-image: url(../images_turen/logo_floket/cs_baggrund_hoest.png);
+		background-size: cover;
+	}
+
+	.modal.fade .modal-dialog {
+		-webkit-transform: scale(0.1);
+		transform: scale(0.1);
+		top: 300px;
+		opacity: 0;
+		-webkit-transition: all 0.15s;
+		transition: all 0.15s;
+	}
+
+	.modal.fade.in .modal-dialog {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transform: translate3d(0, -300px, 0);
+		transform: translate3d(0, -300px, 0);
+		opacity: 1;
+	}
+
+	.in {
+		display: none;
+	}
+
+	/*******************PERSONA**VALGINFO**SLUT**************/
+	/*******************PARTIINFO**LOGOLINKS**************/
+	#section4 h6 {
+		margin-top: 5vw;
+	}
+	/*******************PARTIINFO**LOGOLINKS**SLUT************/
+	/*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
+	.likontaktinfo h4 {
+		line-height: 1.7vw;
+		padding: 0;
+		font-size: 3.2vw;
+		font-family: 'source sans pro';
+		font-weight: 500;
+		color: grey;
+		text-align: center;
+	}
+
+	.likontaktinfo h4 {
+		line-height: 0.7;
+		margin-top: 0.4vw;
+		font-size: 1.9vw;
+	}
+
 	.keaside_top {
-		margin-top: 80px;
-		font-size: 12px;
-		margin-top: 30px;
+		margin-top: 8vw;
+		font-size: 1.2vw;
+		margin-top: 3vw;
 		display: block;
 	}
+
 	.keaside_top a {
 		font-family: "Times New Roman";
 		color: #fff;
 	}
+
 	.keaside_bund {
 		display: none;
 	}
+
 	.some {
 		display: none;
 	}
+
 	.some_copyright {
 		display: none;
 	}
+
 	.some_lorry {
 		display: none;
 	}
+
 	.some_2017 {
-		margin-top: 7px;
+		margin-top: 0.7vw;
 		display: block;
 	}
+
 	.some_ikon {
-		margin: 0 0 0 0;
+		margin: 0;
 		padding: 0;
 		display: block;
 	}
+
 	.some_ikon img {
-		margin: 0 0 10px 0;
+		margin: 0 0 1vw 0;
 		padding: 0;
-		width: 26px;
+		width: 2.6vw;
 		border-radius: 50%;
 	}
+
 	#map {
-		height: 250px;
+		height: 25vw;
 		display: block;
-		margin-right: 50px;
-		margin-top: 30px;
+		margin-right: 5vw;
+		margin-top: 3vw;
 	}
+
 	.keainfo_map {
 		display: block;
 	}
+
 	.keainfo_map h6 {
-		margin-top: 30px;
-		font-size: 18px;
+		margin-top: 3vw;
+		font-size: 2vw;
 		padding-left: 0;
 		padding-bottom: 0;
 		color: whitesmoke;
 		font-family: 'source sans pro';
 	}
+
 	#kort img {
 		width: 15%;
 	}
-	/*******************FOOTER**KONTAKT**GOOGLE**MAPS**SLUT**********/
+
+	.lorry img {
+		height: 5vw;
+		width: 10vw;
+		padding-bottom: 0;
+		margin-top: 2vw;
+	}
 }
+
+/*******************FOOTER**KONTAKT**GOOGLE**MAPS**SLUT**********/
 
 /**************TABLET**LANDSKAB**SLUT************************/
 
@@ -888,27 +939,32 @@ span h2 {
 @media screen and (min-width: 1200px) and (orientation: landscape) {
 	/**************BAGGRUND**LOGO********************/
 	body {
-		max-width: 1366px;
+		max-width: 1920px;
+		margin: auto;
 		background-color: #0079ba;
 		background-image: url(../images_turen/laptop16x9-5120-x-2950_medium.jpg);
 	}
+
 	.logologin {
 		display: none;
 	}
+
 	.logologin1 img {
 		float: left;
 		display: block;
-		height: 30.5vw;
-		width: 30.5vw;
+		height: 31vw;
+		width: 31vw;
 		background-repeat: no-repeat;
 	}
+
 	.logotekst h5 {
-		display: block;
-		font-size: 27px;
+		font-size: 2.1vw;
 		font-weight: 400;
-		padding-top: 2.2vw;
+		padding-bottom: 2.2vw;
 		color: #90ceff;
+		padding-left: 4vw;
 	}
+
 	.logologin2 img {
 		margin-left: 1vw;
 		margin-top: 14vw;
@@ -916,6 +972,7 @@ span h2 {
 		height: 11vw;
 		background-repeat: no-repeat;
 	}
+
 	.logologin3 img {
 		display: block;
 		padding: 0;
@@ -923,6 +980,7 @@ span h2 {
 		width: 100%;
 		height: 100%;
 	}
+
 	.logologin3_two img {
 		display: block;
 		padding: 0;
@@ -930,10 +988,7 @@ span h2 {
 		width: 100%;
 		height: 100%;
 	}
-	.logologin3_two:hover {
-		-webkit-transform: rotateY(180deg);
-		transform: rotateY(180deg);
-	}
+
 	.logologin3_two {
 		-webkit-transform: rotateY(0deg);
 		transform: rotateY(0deg);
@@ -946,6 +1001,7 @@ span h2 {
 		-webkit-transition-timing-function: ease-in-out;
 		transition-timing-function: ease-in-out;
 	}
+
 	.logologin31 {
 		background-repeat: no-repeat;
 		z-index: 13;
@@ -1000,6 +1056,7 @@ span h2 {
 			transform: rotateY(720deg);
 		}
 	}
+
 	.logologin32 {
 		background-repeat: no-repeat;
 		z-index: 13;
@@ -1054,6 +1111,7 @@ span h2 {
 			transform: rotateY(720deg);
 		}
 	}
+
 	.logologin33 {
 		background-repeat: no-repeat;
 		z-index: 13;
@@ -1109,6 +1167,7 @@ span h2 {
 			transform: rotateY(720deg);
 		}
 	}
+
 	.logologin3_two_123 {
 		background-repeat: no-repeat;
 		z-index: 13;
@@ -1163,6 +1222,7 @@ span h2 {
 			transform: rotateY(720deg);
 		}
 	}
+
 	.logologin3_two_124 {
 		background-repeat: no-repeat;
 		z-index: 13;
@@ -1217,6 +1277,7 @@ span h2 {
 			transform: rotateY(720deg);
 		}
 	}
+
 	.logologin3_two_125 {
 		background-repeat: no-repeat;
 		z-index: 13;
@@ -1271,6 +1332,7 @@ span h2 {
 			transform: rotateY(720deg);
 		}
 	}
+
 	.logologin3_two_126 {
 		background-repeat: no-repeat;
 		z-index: 13;
@@ -1325,20 +1387,21 @@ span h2 {
 			transform: rotateY(720deg);
 		}
 	}
+
 	.logologin3_folket {
 		display: none;
 	}
+
 	.logologin2 h1 {
 		margin: 16.5vw 0 0 5vw;
-		padding: 0;
-		font-size: 55px;
 		height: 7vw;
 		color: #90ceff;
 	}
+
 	.motiver {
 		z-index: 250;
 		position: absolute;
-		top: 13vw;
+		top: 11.5vw;
 		left: 1.5vw;
 		width: 340px;
 		height: 309px;
@@ -1356,54 +1419,62 @@ span h2 {
 			background-position: -6120px;
 		}
 	}
+
+	.logologin4 img {
+		max-width: 1920px;
+		margin: auto;
+	}
+
 	/**************BAGGRUND**LOGO**SLUT******************/
 	/**************LAPTOP**GENERALT**********************/
 	div {
 		-webkit-transition: ease-in-out 0.2s;
 		transition: ease-in-out 0.2s;
 	}
+
 	h2 {
-		font-size: 35px;
+		font-size: 3vw;
 		color: #f51021;
 	}
+
+
 	h3 {
-		font-family: 'concert one';
-		font-size: 55px;
 		color: #000;
-		font-weight: 700;
 	}
+
 	h4 {
 		color: #90ceff;
 	}
+
 	h5 {
-		font-size: 18px;
+		font-size: 12vw;
 	}
+
 	h6 {
-		font-size: 25px;
-		padding-left: 40px;
-		font-weight: 700;
+		font-size: 2.8vw;
+		padding-left: 4vw;
 		color: #90ceff;
 	}
+
 	span {
 		-webkit-transition: ease-in-out 0.2s;
 		transition: ease-in-out 0.2s;
 	}
 	/**************LAPTOP**GENERALT**SLUT********************/
 	/**************TOP**NAVBAR************************/
-	.nav {
-		font-size: 30px;
-	}
 	.callto h2 {
 		color: #F51021;
 		font-size: 40px;
 	}
+
 	#myNavbar ul li a {
 		color: #8B8911;
-		font-family: 'source sans pro';
 	}
+
 	#myNavbar ul li a:hover {
 		color: #716F08;
 	}
+
 	#top-image {
 		background: url('../images_turen/cs_flovding_bg_light_30_3333.png') -25px -50px;
 		position: fixed;
@@ -1413,96 +1484,164 @@ span h2 {
 	}
 	/**************TOP**NAVBAR**SLUT**********************/
 	/**************VALG**VIDEO********************/
-	/**************VALG**VIDEO**SLUT******************/
 	#section1 {
-		margin: 40px 25px 25px 25px;
+		margin: auto;
+		margin-top: 2vw;
+		margin-bottom: 2vw;
+		height: 16vw;
+		z-index: 100;
 	}
-	/***************PROCESBAR**INFOGRAFIK******************/
+
+	/**************VALG**VIDEO**SLUT******************/
+	/*********
+	******PROCESBAR**INFOGRAFIK******************/
+	#section2 {
+		max-width: 1920px;
+		margin: auto;
+		height: 55vw;
+		margin: auto;
+	}
+
+	#section2 h3 {
+		margin-top: 1vw;
+	}
+
+	.progress {
+		max-width: 1920px;
+		margin: auto;
+		margin-bottom: 2vw;
+		height: 2vw;
+		width: 90vw;
+	}
+
+	.arrow {
+		max-width: 1920px;
+		margin: auto;
+		margin: auto;
+		top: 41vw;
+	}
+
+	#section2 h4 {
+		max-width: 1920px;
+		margin: auto;
+		top: 37vw;
+		left: 2vw;
+		color: #101010;
+		;
+		font-size: 2.5vw;
+		padding-bottom: 1vw;
+	}
+
 	#section2 h5 {
-		font-size: 16px;
+		max-width: 1920px;
+		margin: auto;
+		width: 90vw;
+		margin-left: 5vw;
+		margin-right: 5vw;
+		top: 43vw;
+		left: 0vw;
+		font-size: 1.8vw;
 	}
 	/***************PROCESBAR**INFOGRAFIK**SLUT****************/
 	/*******************PERSONA**VALGINFO****************/
+	#section3 h3 {
+		margin-top: 18vw;
+	}
+
+	#section3 {
+		max-width: 1300px;
+		margin: auto;
+		padding: 0 4vw 0 4vw;
+	}
+
 	.json_form {
 		background-image: url(../images_turen/logo_floket/cs_body_button_hoest.png);
-		position: relative;
-		height: 225px;
-		width: 225px;
+		height: 185px;
+		width: 185px;
 		z-index: 1;
 		color: #fff;
 		text-decoration: none;
 		background-color: #202020;
-		margin: 10px 10px;
+		margin: 3px 3px;
 		border-radius: 55% 27% 55% 27%;
 	}
+
 	.temp_navn span {
-		font-size: 14px;
+		font-size: 0.8vw;
 	}
-	.temp_reg img {
-		width: 110px;
-		margin-top: 0;
-		padding-left: 20px;
-	}
+
 	.temp_pers img {
-		height: 60px;
-		margin-top: 0;
+		height: 3.5vw;
+	}
+
+	.temp_reg img {
+		width: 6vw;
 	}
 	/*******************PERSONA**VALGINFO**SLUT**************/
 	/*******************PARTIINFO**LOGOLINKS**************/
+	#section4 {
+		max-width: 1300px;
+		margin: auto;
+		margin-top: 0;
+		margin-bottom: 2vw;
+	}
+
+	.parti_max {
+		max-width: 1300px;
+		margin: auto;
+	}
 	/*******************PARTIINFO**LOGOLINKS**SLUT************/
 	/*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
 	footer {
 		background-image: url();
 	}
+
 	#map {
-		margin-top: 30px;
-		height: 250px;
+		height: 25vw;
 		display: block;
+		margin-right: 5vw;
+		margin-top: 3vw;
 	}
+
 	.keainfo_map h6 {
-		margin-top: 30px;
-		font-size: 25px;
-		color: whitesmoke;
-		padding-top: 10px;
-		font-family: 'source sans pro';
+		font-size: 2vw;
+		padding-top: 1vw;
 	}
+
 	.keainfo h6 {
-		font-size: 25px;
-		color: whitesmoke;
-		padding-top: 10px;
-		font-family: 'source sans pro';
+		font-size: 2vw;
+		padding-top: 1vw;
 	}
+
 	.likontaktinfo a {
-		font-size: 20px;
+		font-size: 2vw;
 		font-family: 'source sans pro';
 	}
-	.likontaktinfo {
-		text-align: center;
-	}
+
 	.likontaktinfo h4 {
-		line-height: 0.5;
-		font-size: 20px;
+		line-height: 0.8;
+		font-size: 2vw;
 	}
+
 	.keaside_top {
-		margin-top: 20px;
-		font-size: 17px;
+		margin-top: 2vw;
+		font-size: 1.5vw;
 	}
+
 	.keaside_bund {
 		display: none;
 	}
+
 	.some {
 		display: none;
 	}
-	.some_ikon {
-		margin: 0 0 0 0;
-		display: block;
-	}
+
 	.some_ikon img {
-		width: 40px;
+		width: 4vw;
 	}
+
 	.some_2017 {
-		margin-top: 14px;
-		display: block;
+		margin-top: 1.4vw;
 	}
 }
 

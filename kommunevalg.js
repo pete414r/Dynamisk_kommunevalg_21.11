@@ -78,9 +78,11 @@ function initMap() {
 	}
 }
 
-/**************KORT**INFOVINDUE**SLUT**********/
+/**************KORT**INFOVINDUE*SLUT***********/
 
-/**************INFOGRAFIK**VALGTUREN**********/
+/**************INFOGRAFIK*************/
+
+
 var valgte;
 var info;
 var aktiv;
@@ -103,6 +105,33 @@ function onEnter(e) {
 	valgte = $(e.currentTarget).closest("g").attr("id");
 	console.log(valgte);
 	info.forEach(visTekst);
+	if (valgte == "tur1") {
+		console.log("test");
+		$(".arrow").css("transform", "scaleX(-1)");
+		$(".arrow").css("margin-left", "15vw");
+		$("#section2 h4").css("margin-left", " 13vw");
+	}
+	if (valgte == "tur2") {
+		$(".arrow").css("transform", "scaleX(-1)");
+		$(".arrow").css("margin-left", "39vw");
+		$("#section2 h4").css("margin-left", "36vw");
+	}
+	if (valgte == "tur3") {
+		$(".arrow").css("transform", "scaleX(0)");
+		$(".arrow").css("margin-left", "40vw");
+		$("#section2 h4").css("margin-left", "44vw");
+	}
+	if (valgte == "tur4") {
+		$(".arrow").css("transform", "scaleX(1)");
+		$(".arrow").css("margin-left", "67vw");
+		$("#section2 h4").css("margin-left", "76vw");
+	}
+	if (valgte == "tur5") {
+
+		$(".arrow").css("transform", "scaleX(1)");
+		$(".arrow").css("margin-left", "43vw");
+		$("#section2 h4").css("margin-left", "50vw");
+	}
 };
 
 function onOut() {}
@@ -114,8 +143,11 @@ function visTekst(val) {
 	}
 };
 
-window.addEventListener("load", start);
+/**************INFOGRAFIK***SLUT**********/
 
+/**************REGION*INFO**MODAL*******/
+
+window.addEventListener("load", start);
 
 function start() {
 	console.log("Start programmet");
@@ -209,7 +241,6 @@ $(document).ready(function () {
 
 /**************SLOW**LINK******************/
 
-
 $(document).ready(function () {
 	// Add smooth scrolling to all links
 	$("a").on('click', function (event) {
@@ -246,4 +277,5 @@ $(document).ready(function () {
 	js.src = 'https://connect.facebook.net/da_DK/sdk.js#xfbml=1&version=v2.11';
 	fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+
 /************FB**like*LINK**slut****************/
