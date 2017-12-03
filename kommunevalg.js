@@ -78,10 +78,9 @@ function initMap() {
 	}
 }
 
-/**************KORT**INFOVINDUE*SLUT***********/
+/**************KORT**INFOVINDUE**SLUT**********/
 
-/**************INFOGRAFIK*************/
-
+/**************INFOGRAFIK**VALGTUREN**********/
 
 var valgte;
 var info;
@@ -108,28 +107,28 @@ function onEnter(e) {
 	if (valgte == "tur1") {
 		console.log("test");
 		$(".arrow").css("transform", "scaleX(-1)");
-		$(".arrow").css("margin-left", "15vw");
-		$("#section2 h4").css("margin-left", " 13vw");
+		$(".arrow").css("margin-left", "12vw");
+		$("#section2 h4").css("margin-left", "7vw");
 	}
 	if (valgte == "tur2") {
-		$(".arrow").css("transform", "scaleX(-1)");
-		$(".arrow").css("margin-left", "39vw");
-		$("#section2 h4").css("margin-left", "36vw");
+		$(".arrow").css("transform", "scaleX(1)");
+		$(".arrow").css("margin-left", "20vw");
+		$("#section2 h4").css("margin-left", "26vw");
 	}
 	if (valgte == "tur3") {
-		$(".arrow").css("transform", "scaleX(0)");
-		$(".arrow").css("margin-left", "40vw");
-		$("#section2 h4").css("margin-left", "44vw");
+		$(".arrow").css("transform", "scaleX(1)");
+		$(".arrow").css("margin-left", "34vw");
+		$("#section2 h4").css("margin-left", "38vw");
 	}
 	if (valgte == "tur4") {
 		$(".arrow").css("transform", "scaleX(1)");
-		$(".arrow").css("margin-left", "67vw");
-		$("#section2 h4").css("margin-left", "76vw");
+		$(".arrow").css("margin-left", "59vw");
+		$("#section2 h4").css("margin-left", "67vw");
 	}
 	if (valgte == "tur5") {
 
 		$(".arrow").css("transform", "scaleX(1)");
-		$(".arrow").css("margin-left", "43vw");
+		$(".arrow").css("margin-left", "45vw");
 		$("#section2 h4").css("margin-left", "50vw");
 	}
 };
@@ -143,11 +142,9 @@ function visTekst(val) {
 	}
 };
 
-/**************INFOGRAFIK***SLUT**********/
-
-/**************REGION*INFO**MODAL*******/
-
+/**************INFOGRAFIK**VALGTUREN***SLUT*******/
 window.addEventListener("load", start);
+
 
 function start() {
 	console.log("Start programmet");
@@ -241,6 +238,7 @@ $(document).ready(function () {
 
 /**************SLOW**LINK******************/
 
+
 $(document).ready(function () {
 	// Add smooth scrolling to all links
 	$("a").on('click', function (event) {
@@ -269,13 +267,11 @@ $(document).ready(function () {
 /**************SLOW**LINK***SLUT***************/
 /************FB**like*LINK******************/
 
-(function (d, s, id) {
-	var js, fjs = d.getElementsByTagName(s)[0];
-	if (d.getElementById(id)) return;
-	js = d.createElement(s);
-	js.id = id;
-	js.src = 'https://connect.facebook.net/da_DK/sdk.js#xfbml=1&version=v2.11';
-	fjs.parentNode.insertBefore(js, fjs);
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/da_DK/sdk.js#xfbml=1&version=v2.11';
+  fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
-
 /************FB**like*LINK**slut****************/
