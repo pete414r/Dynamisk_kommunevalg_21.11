@@ -212,7 +212,7 @@ body {
 }
 
 .navbar {
-	background-color: rgba(72, 38, 37, 0.1);
+	background-color: rgba(72, 38, 37, 0);
 	border-radius: 0.5%;
 }
 
@@ -225,6 +225,10 @@ body {
 	color: #B6C350;
 	font-weight: 100;
 	font-family: 'source sans pro';
+}
+
+.navbar-inverse{
+	border-color: rgba(0, 0, 128, 0);
 }
 
 /**************TOP**NAVBAR**SLUT**********************/
@@ -286,7 +290,7 @@ body {
 
 .arrow {
 	position: absolute;
-	top: 6.7vw;
+	top: 6.6vw;
 	left: 5vw;
 	-webkit-transition: ease-in-out 0.3s;
 	transition: ease-in-out 0.3s;
@@ -343,9 +347,170 @@ body {
 
 /***************PROCESBAR**INFOGRAFIK**SLUT****************/
 
+/************Dynamisk**region************************/
+
+	#section3 {
+		display: block;
+		z-index: 100;
+		margin: 90px 25px 25px 25px;
+		padding: 0 20px 0 20px;
+	}
+	#section3 h6{
+		margin-bottom: 5px;
+		padding-bottom: 0;
+	}
+
+	#section3 .modal-body span {
+		color: black;
+	}
+
+	.json_form {
+		background-image: url(../images_turen/logo_floket/cs_body_button_hoest.png);
+		position: relative;
+		height: 185px;
+		width: 185px;
+		z-index: 1;
+		color: #fff;
+		text-decoration: none;
+		margin: 3px 3px;
+		border-radius: 5% 5% 5% 5%;
+	}
+
+	.temp_forma {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+
+	#teksten_union {
+	display: inline;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+}
+
+span h2 {
+	text-align: center;
+	font-size: 14px;
+}
+
+.colorbox {
+	width: 40px;
+	height: 40px;
+	display: block;
+	border: 3px solid #fff;
+	border-radius: 50%;
+}
+
+.vaegt_navn {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	margin-right: 10px;
+}
+
+.hojde_navn {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	margin-right: 10px;
+}
+
+.color_navn span {
+	text-decoration: none;
+	color: white;
+	text-align: left;
+	margin: 0 1px 0 0;
+}
+
+.color_navn img {
+	margin-top: 25px;
+}
+
+.json_form button {
+	width: 100%;
+	height: 84%;
+	padding: 0;
+	margin: 8% 0.3% 0 0;
+	border: 0;
+	background-color: rgba(168, 160, 143, 0.5);
+}
+
+.temp_reg span{
+text-decoration: none;
+}
+
+.temp_reg img {
+	width: 60px;
+	margin: 0 0 0 24px;
+	padding-left: 20px;
+}
+
+.temp_pers img {
+	height: 25px;
+	margin-top: 0;
+	text-decoration: none;
+}
+
+.modal-header {
+	background-image: url(../images_turen/logo_floket/cs_baggrund_hoest.png);
+	background-size: cover;
+}
+
+.modal-body {
+	opacity: 50;
+	background-image: url(../images_turen/logo_floket/cs_body_button_hoest.png);
+	background-size: cover;
+	background-color: lightyellow;
+}
+
+.modal-footer {
+	background-image: url(../images_turen/logo_floket/cs_baggrund_hoest.png);
+	background-size: cover;
+}
+
+.modal.fade .modal-dialog {
+	-webkit-transform: scale(0.1);
+	transform: scale(0.1);
+	top: 300px;
+	opacity: 0;
+	-webkit-transition: all 0.15s;
+	transition: all 0.15s;
+}
+
+.modal.fade.in .modal-dialog {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transform: translate3d(0, -300px, 0);
+	transform: translate3d(0, -300px, 0);
+	opacity: 1;
+}
+
+.in {
+	display: none;
+}
+
+
+/************Dynamisk**region**slut**********************/
+
+/************partier**slut*********************/
+
 #section4 {
 	border-radius: 10px;
-	margin: 130px 0 0 0;
+	margin: 0px 0 0 0;
+}
+
+.parti_max {
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url(../images_turen/partier/partier_baggrund_sx.jpg);
 }
 
 #section4 h6{
@@ -365,6 +530,7 @@ body {
 }
 
 .pic {
+	z-index: 10;
 	margin-top: 13px;
 	margin-bottom: 40px;
 	text-align: center;
@@ -454,132 +620,7 @@ body {
 	text-align: center;
 }
 
-/************Dynamisk**parti************************/
-
-#section3 {
-	display: none;
-}
-
-#teksten_union {
-	display: inline;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	margin: 0;
-	padding: 0;
-}
-
-span h2 {
-	text-align: center;
-	font-size: 14px;
-}
-
-.colorbox {
-	width: 40px;
-	height: 40px;
-	display: block;
-	border: 3px solid #fff;
-	border-radius: 50%;
-}
-
-.temp_navn {
-	display: block;
-	margin-right: 10px;
-	margin-left: 10px;
-}
-
-.vaegt_navn {
-	display: -webkit-inline-box;
-	display: -ms-inline-flexbox;
-	display: inline-flex;
-	margin-right: 10px;
-}
-
-.hojde_navn {
-	display: -webkit-inline-box;
-	display: -ms-inline-flexbox;
-	display: inline-flex;
-	margin-right: 10px;
-}
-
-.color_navn span {
-	text-decoration: none;
-	color: white;
-	text-align: left;
-	margin: 0 1px 0 0;
-}
-
-.color_navn img {
-	margin-top: 25px;
-}
-
-.json_form button {
-	width: 100%;
-	height: 84%;
-	padding: 0;
-	margin: 8% 0.3% 0 0;
-	border: 0;
-}
-
-.temp_navn span {
-	font-size: 11px;
-}
-
-.temp_reg img {
-	width: 80px;
-	margin: 0;
-	padding-left: 20px;
-}
-
-.temp_pers img {
-	height: 40px;
-	margin-top: 0;
-}
-
-.modal-header {
-	background-image: url(../images_turen/logo_floket/cs_baggrund_hoest.png);
-	background-size: cover;
-}
-
-.modal-body {
-	opacity: 50;
-	background-image: url(../images_turen/logo_floket/cs_body_button_hoest.png);
-	background-size: cover;
-	background-color: lightyellow;
-}
-
-.modal-footer {
-	background-image: url(../images_turen/logo_floket/cs_baggrund_hoest.png);
-	background-size: cover;
-}
-
-.modal.fade .modal-dialog {
-	-webkit-transform: scale(0.1);
-	transform: scale(0.1);
-	top: 300px;
-	opacity: 0;
-	-webkit-transition: all 0.15s;
-	transition: all 0.15s;
-}
-
-.modal.fade.in .modal-dialog {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transform: translate3d(0, -300px, 0);
-	transform: translate3d(0, -300px, 0);
-	opacity: 1;
-}
-
-.in {
-	display: none;
-}
-
-/************Dynamisk**parti**slut**********************/
+/************partier**slut*********************/
 
 /*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
 
@@ -695,7 +736,7 @@ footer {
 @media screen and (min-width: 768px) and (orientation: landscape) {
 	/**************BAGGRUND**LOGO********************/
 	body {
-		background-color: rgba(204, 112, 178, 0.96);
+		background-color: #cc70b2;
 		background-image: url(../images_turen/tabletlandskab-1024-x800.jpg);
 	}
 	.logologin img {
@@ -794,13 +835,24 @@ footer {
 	/***************PROCESBAR**INFOGRAFIK******************/
 
 	#section2 h6 {
-	margin-bottom: 25px;
+	margin-bottom: 30px;
 	}
 
 	#section2 h5 {
 		line-height: 1.5;
 		font-size: 18px;
 	}
+
+	.arrow {
+	position: absolute;
+	top: 5.2vw;
+	left: 5vw;
+	-webkit-transition: ease-in-out 0.3s;
+	transition: ease-in-out 0.3s;
+	border-top: 3vw solid transparent;
+	border-right: 4vw solid whitesmoke;
+	border-bottom: 01vw solid transparent;
+}
 	/***************PROCESBAR**INFOGRAFIK**SLUT****************/
 	/*******************PERSONA**VALGINFO**DYNAMICK**************/
 
@@ -826,9 +878,9 @@ footer {
 		z-index: 1;
 		color: #fff;
 		text-decoration: none;
-		background-color: #202020;
+		background-color: rgba(32, 32, 32, 0);
 		margin: 3px 3px;
-		border-radius: 55% 27% 55% 27%;
+		border-radius: 5% 5% 5% 5%;
 	}
 
 	.temp_forma {
@@ -836,15 +888,134 @@ footer {
 		display: -ms-flexbox;
 		display: flex;
 	}
+
+	#teksten_union {
+	display: inline;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+}
+
+span h2 {
+	text-align: center;
+	font-size: 14px;
+}
+
+.colorbox {
+	width: 40px;
+	height: 40px;
+	display: block;
+	border: 3px solid #fff;
+	border-radius: 50%;
+}
+
+.vaegt_navn {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	margin-right: 10px;
+}
+
+.hojde_navn {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	margin-right: 10px;
+}
+
+.color_navn span {
+	text-decoration: none;
+	color: white;
+	text-align: left;
+	margin: 0 1px 0 0;
+}
+
+.color_navn img {
+	margin-top: 25px;
+}
+
+
+.json_form button {
+	width: 100%;
+	height: 84%;
+	padding: 0;
+	margin: 8% 0.3% 0 0;
+	border: 0;
+	background-color: rgba(212, 180, 203, 0.5);
+}
+
+.temp_reg span{
+text-decoration: none;
+}
+
+.temp_reg img {
+	width: 60px;
+	margin: 0 0 0 24px;
+	padding-left: 20px;
+}
+
+.temp_pers img {
+	height: 25px;
+	margin-top: 0;
+	text-decoration: none;
+}
+
+.modal-body {
+	opacity: 50;
+	background-image: url(../images_turen/logo_floket/cs_body_button_hoest.png);
+	background-size: cover;
+	background-color: lightyellow;
+}
+
+.modal-header {
+	background-image: url(../images_turen/logo_floket/cs_baggrund_hoest.png);
+	background-size: cover;
+}
+
+.modal-footer {
+	background-image: url(../images_turen/logo_floket/cs_baggrund_hoest.png);
+	background-size: cover;
+}
+
+.modal.fade .modal-dialog {
+	-webkit-transform: scale(0.1);
+	transform: scale(0.1);
+	top: 300px;
+	opacity: 0;
+	-webkit-transition: all 0.15s;
+	transition: all 0.15s;
+}
+
+.modal.fade.in .modal-dialog {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transform: translate3d(0, -300px, 0);
+	transform: translate3d(0, -300px, 0);
+	opacity: 1;
+}
+
+/************Dynamisk**parti**slut**/
 	/*******************PERSONA**VALGINFO**SLUT**************/
 	/*******************PARTIINFO**LOGOLINKS**************/
 	#section4 {
 	margin: 10px 0 0 0;
 }
 
+.parti_max {
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url(../images_turen/partier/partier_baggrund_md.jpg);
+}
+
 #section4 h6{
-	margin-top: 10px;
-	margin-bottom: 0;
+	margin:0 0 35px 0;
 }/*******************PARTIINFO**LOGOLINKS**SLUT************/
 	/*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
 	.keainfo h6 {
@@ -1479,7 +1650,7 @@ footer {
 	}
 
 	#section2 h6 {
-		margin: 15px 0 15px 0;
+		margin: 5px 0 30px 0;
 	}
 	/***************PROCESBAR**INFOGRAFIK**SLUT****************/
 	/*******************PERSONA**VALGINFO****************/
@@ -1502,15 +1673,21 @@ footer {
 		z-index: 1;
 		color: #fff;
 		text-decoration: none;
-		background-color: #202020;
 		margin: 10px 10px;
-		border-radius: 55% 27% 55% 27%;
+		border-radius: 5% 5% 5% 5%;
 	}
-	.temp_navn span {
-		font-size: 14px;
-	}
+
+	.json_form button {
+	width: 100%;
+	height: 84%;
+	padding: 0;
+	margin: 8% 0.3% 0 0;
+	border: 0;
+	background-color: rgba(25, 175, 255, 0.5);
+}
+
 	.temp_reg img {
-		width: 110px;
+		width: 100px;
 		margin-top: 0;
 		padding-left: 20px;
 	}
@@ -1522,13 +1699,20 @@ footer {
 	/*******************PARTIINFO**LOGOLINKS**************/
 
 	#section4 h6 {
-	margin: 15px 0 0 0;
+	margin: 0 0 35px; 0;
 }
 
 	#section4 {
 	border-radius: 10px;
-	margin: 23px 10px 0 10px;
+	margin: 0 10px 0 10px;
 }
+
+	.parti_max {
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url(../images_turen/partier/partier_baggrund_lg.jpg);
+}
+
 	/*******************PARTIINFO**LOGOLINKS**SLUT************/
 	/*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
 	footer {
